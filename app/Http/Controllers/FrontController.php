@@ -15,4 +15,9 @@ class FrontController extends Controller
     {
         return view('front.about');
     }
+
+    public function outcomes()
+    {
+        return view('front.outcomes');
+    }
 }

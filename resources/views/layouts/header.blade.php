@@ -9,11 +9,11 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="{{ route('home') }} " class="active">Home</a></li>
-          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="{{ route('home') }} " class="{{ Request()->is('/') ? 'active' : '' }}">Home</a></li>
+          <li class="dropdown"><a href="#" class="{{ Request()->is('about', 'outcomes') ? 'active' : '' }}"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="{{ route('about') }}">About HCE</a></li>
-              <li><a href="#">Expected Outcomes</a></li>
+              <li><a href="{{ route('outcomes') }} ">Expected Outcomes</a></li>
               
               </li>
             </ul>

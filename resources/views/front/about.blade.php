@@ -34,8 +34,8 @@
 
           <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <h3>A Homegrown Solution to Climate Change</h3>
-            <p>Africa, a continent brimming with potential, faces a critical challenge: ensuring energy access and tackling climate change. Over 50% of its population lacks electricity, relying on unsustainable practices that threaten their health and the environment. Yet, Africa possesses a wealth of untapped renewable resources – a golden key to unlocking a brighter future.</p>
-            <p>This is where the Homegrown Clean Energy (HCE) Solutions Project steps in. We envision a revolution driven not by external solutions, but by African ingenuity. We'll empower universities, private sectors, and local communities to develop clean energy solutions tailored to their specific needs.</p>
+            <p style="text-align:justify;">Africa, a continent brimming with potential, faces a critical challenge: ensuring energy access and tackling climate change. Over 50% of its population lacks electricity, relying on unsustainable practices that threaten their health and the environment. Yet, Africa possesses a wealth of untapped renewable resources – a golden key to unlocking a brighter future.</p>
+            <p style="text-align:justify;">This is where the Homegrown Clean Energy (HCE) Solutions Project steps in. We envision a revolution driven not by external solutions, but by African ingenuity. We'll empower universities, private sectors, and local communities to develop clean energy solutions tailored to their specific needs.</p>
 
             <h5>Imagine a future where:</h5>
 

@@ -74,7 +74,7 @@
                   <i class="fa-solid fa-mountain-city"></i>
                 </div>
                 <h3>Empowering Local Expertise</h3>
-                <p>We equip universities, private sectors, and communities to develop clean energy solutions tailored to their specific needs. No one-size-fits-all approaches here – we cultivate African-led solutions for <em>Africa's challenges.</em></p>
+                <p style="text-align:justify;">We equip universities, private sectors, and communities to develop clean energy solutions tailored to their specific needs. No one-size-fits-all approaches here – we cultivate African-led solutions for <strong>Africa's challenges.</strong></p>
                 <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
               </div>
             </div><!-- End Service Item -->
@@ -85,7 +85,7 @@
                   <i class="fa-solid fa-arrow-up-from-ground-water"></i>
                 </div>
                 <h3>Building the Next Generation</h3>
-                <p>We're not just training students – we're creating the next wave of clean energy <em>experts and entrepreneurs.</em> Our comprehensive programs equip participants with the knowledge and skills to drive innovation and economic growth.</p>
+                <p style="text-align:justify;">We're not just training students – we're creating the next wave of clean energy <strong>experts and entrepreneurs.</strong> Our comprehensive programs equip participants with the knowledge and skills to drive innovation and economic growth.</p>
                 <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
               </div>
             </div><!-- End Service Item -->
@@ -96,7 +96,7 @@
                   <i class="fa-solid fa-compass-drafting"></i>
                 </div>
                 <h3>Strength in Collaboration</h3>
-                <p>We foster partnerships between universities, private companies, and communities. This synergy fuels knowledge sharing, accelerates progress, and creates a <em>lasting impact </em>across Africa.</p>
+                <p style="text-align:justify;">We foster partnerships between universities, private companies, and communities. This synergy fuels knowledge sharing, accelerates progress, and creates a <strong>lasting impact </strong>across Africa.</p>
                 <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
               </div>
             </div><!-- End Service Item -->
