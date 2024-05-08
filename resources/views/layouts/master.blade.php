@@ -18,7 +18,7 @@
 
   <!-- Vendor CSS Files -->
   <link href="{{ asset('main/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('main/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}
+  <link href="{{ asset('main/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}"
   <link href="{{ asset('main/assets/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
   <link href="{{ asset('main/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
   <link href="{{ asset('main/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">

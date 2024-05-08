@@ -13,9 +13,9 @@
         <div class="container">
           <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-6 text-center">
-              <h2 class="">Welcome to UpConstruction</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <a href="#get-started" class="btn-get-started">Get Started</a>
+              <h2 class="">Welcome to Homegrown Clean Energy Solutions</h2>
+              <p>A groundbreaking initiative igniting Africa's clean energy future. We believe the key to Africa's energy independence and environmental well-being lies within its people. That's why we're fostering a powerful movement built on collaboration, innovation, and homegrown ingenuity</p>
+              <!-- <a href="#get-started" class="btn-get-started">Get Started</a> -->
             </div>
           </div>
         </div>
@@ -24,23 +24,23 @@
       <div id="section-fqREP4OWmC-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
         <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+          <img src="{{ asset('main/assets/img/hero-carousel/hero-carousel-1.jpg') }}" alt="">
         </div>
 
         <div class="carousel-item active">
-          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
+          <img src="{{ asset('main/assets/img/hero-carousel/hero-carousel-2.jpg') }}" alt="">
         </div>
 
         <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
+          <img src="{{ asset('main/assets/img/hero-carousel/hero-carousel-3.jpg') }}" alt="">
         </div>
 
         <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-4.jpg" alt="">
+          <img src="{{ asset('main/assets/img/hero-carousel/hero-carousel-4.jpg') }}" alt="">
         </div>
 
         <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-5.jpg" alt="">
+          <img src="{{ asset('main/assets/img/hero-carousel/hero-carousel-5.jpg') }}" alt="">
         </div>
 
         <a class="carousel-control-prev" href="#section-fqREP4OWmC-carousel" role="button" data-bs-slide="prev">
@@ -55,60 +55,142 @@
 
     </section><!-- /Hero Section -->
 
-    <!-- Get Started Section -->
-    <section id="get-started" class="get-started section">
+    <!-- Why choose us Section -->
+    <section id="services" class="services section">
 
-      <div class="container">
-
-        <div class="row justify-content-between gy-4">
-
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <div class="content">
-              <h3>Minus hic non reiciendis ea possimus at quia.</h3>
-              <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.
-              </p>
-              <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Get a quote</h3>
-              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
-              <div class="row gy-3">
-
-                <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Name" required="">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Why Choose Us</h2>
+          <p>Here's why you can expect exceptional results from us...</p>
+        </div><!-- End Section Title -->
+  
+        <div class="container">
+  
+          <div class="row gy-4">
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item  position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-mountain-city"></i>
                 </div>
-
-                <div class="col-md-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-
-                  <button type="submit">Get a quote</button>
-                </div>
-
+                <h3>Empowering Local Expertise</h3>
+                <p>We equip universities, private sectors, and communities to develop clean energy solutions tailored to their specific needs. No one-size-fits-all approaches here – we cultivate African-led solutions for <em>Africa's challenges.</em></p>
+                <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
               </div>
-            </form>
-          </div><!-- End Quote Form -->
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                </div>
+                <h3>Building the Next Generation</h3>
+                <p>We're not just training students – we're creating the next wave of clean energy <em>experts and entrepreneurs.</em> Our comprehensive programs equip participants with the knowledge and skills to drive innovation and economic growth.</p>
+                <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-compass-drafting"></i>
+                </div>
+                <h3>Strength in Collaboration</h3>
+                <p>We foster partnerships between universities, private companies, and communities. This synergy fuels knowledge sharing, accelerates progress, and creates a <em>lasting impact </em>across Africa.</p>
+                <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+              </div>
+            </div><!-- End Service Item -->
+          </div>
+  
+        </div>
+  
+    </section><!-- /Services Section -->
+      <!-- Alt Services 2 Section -->
+    <section id="alt-services-2" class="alt-services-2 section">
 
+        <div class="container">
+  
+          <div class="row justify-content-around gy-4">
+  
+            <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+              <h3>Join the Movement</h3>
+              <p>Explore our website to learn more about our initiatives, partnerships, and upcoming events. Here are some key areas you can delve into:</p>
+  
+              
+                <div class="icon-box d-flex">
+                  <i class="bi bi-easel flex-shrink-0"></i>
+                  <div>
+                    <h4>Capacity Building & Knowledge Transfer</h4>
+                    <p>Discover our programs empowering individuals and institutions to become clean energy leaders.</p>
+                  </div>
+                </div><!-- End Icon Box -->
+            </div>
+            
+  
+            <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+              <img src="{{ asset('main/assets/img/features-3-2.jpg')}}" alt="">
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </section><!-- /Alt Services 2 Section -->
+      <div class="features section"> 
+        <div class="container">
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
+            
+              <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h4><strong>Meet the esteemed universities, private companies, and organizations collaborating to make clean energy a reality:</strong></h4>
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li><i class="bi bi-check2-all"></i> <span>University of Abomey-Calavi (UAC), Benin</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Makerere University (MU), Uganda</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>University of Zimbabwe (UZ), Zimbabwe</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>West African Science Service Centre on Climate Change and Adapted Land Use (WASCAL)</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Nigerian Women in Agricultural Research for Development (NiWARD), Nigeria</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Instituto Politecnico Do Porto, Portugal</span></li>
+                          </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li><i class="bi bi-check2-all"></i> <span>Uganda Martyrs University (UMU), Uganda</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>University of Nigeria, Nsukka (UNN), Nigeria</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>VALEC ELECTRIC LIMITED, Nigeria</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Regional Universities Forum for Capacity Building in Agriculture (RUFORUM)</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>West African Science Services Centre, Ghana</span></li>
+                          </ul>
+                    </div>
+                </div>
+                
+              </div>                
+          </div><!-- End tab content item -->
         </div>
 
-      </div>
+        </div>
+    </div>
 
-    </section><!-- /Get Started Section -->    
+      <!-- Services Section -->
+    <section id="services" class="services section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>News & Events</h2>
+          <p>Stay updated on our latest developments, upcoming workshops, and exciting opportunities to get involved. </p>
+          <br>
+          <p><em><strong>Together, let's ignite a clean energy revolution that empowers Africa to build a brighter, more sustainable future!</strong></em></p><br>
+          <a href="#"><button type="button" class="btn btn-outline-success"><em>Get involved</em></button></a><br><br>
+          <p>Explore partnership opportunities, volunteer your expertise, or simply spread the word!</p>
+        </div><!-- End Section Title -->
+
+      </section><!-- /Services Section -->
+  
+
+    <!-- Get Started Section -->
+     
   </main>
   @endsection
