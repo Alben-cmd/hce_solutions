@@ -144,7 +144,7 @@
           <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
             
               <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h4><strong>Meet the esteemed universities, private companies, and organizations collaborating to make clean energy a reality:</strong></h4>
+                <h4><strong>Meet the Esteemed Universities, Private Companies, and Organizations Collaborating to Make Clean Energy a Reality:</strong></h4>
                 <div class="row">
                     <div class="col-6">
                         <ul>

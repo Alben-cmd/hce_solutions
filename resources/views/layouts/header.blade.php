@@ -10,7 +10,14 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="{{ route('home') }} " class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="{{ route('about') }}">About HCE</a></li>
+              <li><a href="#">Expected Outcomes</a></li>
+              
+              </li>
+            </ul>
+          </li>
           <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Project Activities</a></li>

@@ -4,7 +4,7 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="{{ route('home') }} " class="logo d-flex align-items-center">
-            <span class="sitename">HCE Solutions</span>
+            <span class="sitename">Homegrown Clean Energy</span>
           </a>
           <a href="#">
             <img src="{{ asset('main/assets/img/logo.png') }}" style="width:200px;height:200px;" alt="">
@@ -47,7 +47,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">UpConstruction</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">HCE</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->

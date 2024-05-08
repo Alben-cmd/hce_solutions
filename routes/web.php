@@ -15,4 +15,4 @@ use App\Http\Controllers\FrontController;
 */
 
 Route::get('/', [FrontController::class, 'index'])->name('home');
-Route::get('/test', [FrontController::class, 'test'])->name('test');
+Route::get('/about', [FrontController::class, 'about'])->name('about');
