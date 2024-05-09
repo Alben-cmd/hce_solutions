@@ -17,3 +17,6 @@ use App\Http\Controllers\FrontController;
 Route::get('/', [FrontController::class, 'index'])->name('home');
 Route::get('/about', [FrontController::class, 'about'])->name('about');
 Route::get('/outcomes', [FrontController::class, 'outcomes'])->name('outcomes');
+Route::get('/activities', [FrontController::class, 'activities'])->name('activities');
+Route::get('/achievements', [FrontController::class, 'achievements'])->name('achievements');
+Route::get('/impacts', [FrontController::class, 'impacts'])->name('impacts');

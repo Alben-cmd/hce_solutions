@@ -13,11 +13,26 @@ class FrontController extends Controller
 
     public function about()
     {
-        return view('front.about');
+        return view('front.about.about');
     }
 
     public function outcomes()
     {
-        return view('front.outcomes');
+        return view('front.about.outcomes');
+    }
+
+    public function activities()
+    {
+        return view('front.projects.activities');
+    }
+
+    public function achievements()
+    {
+        return view('front.projects.achievements');
+    }
+
+    public function impacts()
+    {
+        return view('front.projects.impacts');
     }
 }
