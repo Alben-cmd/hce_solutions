@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\OpportunityController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,4 +26,7 @@ Route::get('/impacts', [ProjectController::class, 'impacts'])->name('impacts');
 Route::get('/workshops_training', [ProjectController::class, 'workshops_training'])->name('workshops_training');
 //projects ends
 Route::get('/news', [FrontController::class, 'news'])->name('news');
+//opportunities start
+Route::get('/opportunities', [OpportunityController::class, 'opportunities'])->name('opportunities');
+Route::get('/scholarship', [OpportunityController::class, 'scholarship'])->name('scholarship');
 

@@ -21,14 +21,12 @@
 
     <!-- Alt Services Section -->
             <!-- Section Title -->
-        
-    <section id="alt-services" class="alt-services section">
-        <div class="container section-title" data-aos="fade-up">
-            <!-- <h2>Services</h2> -->
-            <p> <em> <strong>The Homegrown Clean Energy Solutions Project is a groundbreaking initiative empowering Africa to tackle climate change and achieve energy independence. Here's how we envision a brighter future:</strong></em></p><br>
-          </div><!-- End Section Title -->
-    </section><!-- /Alt Services Section -->
-
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <br>
+    <h2>Expected Outcomes</h2>
+    <p><em> <strong>The Homegrown Clean Energy Solutions Project is a groundbreaking initiative empowering Africa to tackle climate change and achieve energy independence. Here's how we envision a brighter future:</strong></em></p>
+  </div><!-- End Section Title -->   
     <section id="features-cards" class="features-cards section">
       <div class="container">
         <div class="row gy-4">
