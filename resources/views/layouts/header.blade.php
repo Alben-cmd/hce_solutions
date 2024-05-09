@@ -18,15 +18,15 @@
               </li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#" class="{{ Request()->is('activities', 'achievements', 'impacts', 'workshops_training') ? 'active' : '' }}"><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="{{ route('activities') }} ">Activites</a></li>
               <li><a href="{{ route('achievements') }}">Achievements</a></li>
               <li><a href="{{ route('impacts') }}">Impacts</a></li>
+              <li><a href="{{ route('workshops_training') }}">Workshops & Training</a></li>
             </ul>
-          </li>
-          
-          <li><a href="blog.html">News</a></li>
+          </li>  
+          <li><a href="{{ route('news') }} " class="{{ Request()->is('news') ? 'active' : '' }}">News</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
