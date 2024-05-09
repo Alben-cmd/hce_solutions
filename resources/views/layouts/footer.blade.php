@@ -15,11 +15,11 @@
           <h4>Useful Links</h4>
           <ul>
             <li><a href="{{ route('home') }} ">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="{{ route('about') }} ">About us</a></li>
+            <li><a href="{{ route('achievements') }} ">Archivements</a></li>
+            <li><a href="{{ route('news') }} ">News</a></li>
+            <li><a href="{{ route('contact') }} ">Contact Us</a></li>
+            <li><a href="{{ route('faq') }} ">FAQ</a></li>
           </ul>
         </div>
 

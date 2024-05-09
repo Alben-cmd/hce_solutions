@@ -93,7 +93,7 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="fa-solid fa-compass-drafting"></i>
+                  <i class="fa-solid fa-hand-fist"></i>
                 </div>
                 <h3>Strength in Collaboration</h3>
                 <p style="text-align:justify;">We foster partnerships between universities, private companies, and communities. This synergy fuels knowledge sharing, accelerates progress, and creates a <strong>lasting impact </strong>across Africa.</p>

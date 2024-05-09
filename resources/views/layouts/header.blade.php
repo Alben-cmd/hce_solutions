@@ -50,8 +50,8 @@
               <li><a href="{{ route('scholarship') }}">Scholarships</a></li>
             </ul>
           </li> 
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="services.html">FAQ</a></li>
+          <li><a href="{{ route('contact') }} " class="{{ Request()->is('contact') ? 'active' : '' }}">Contact</a></li>
+          <li><a href="{{ route('faq') }} " class="{{ Request()->is('faq') ? 'active' : '' }}">FAQ</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>

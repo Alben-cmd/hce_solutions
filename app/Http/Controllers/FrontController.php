@@ -25,4 +25,14 @@ class FrontController extends Controller
     {
         return view('front.news.news');
     }
+
+    public function contact()
+    {
+        return view('front.contact');
+    }
+
+    public function faq()
+    {
+        return view('front.faq');
+    }
 }

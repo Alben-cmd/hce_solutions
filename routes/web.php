@@ -29,4 +29,8 @@ Route::get('/news', [FrontController::class, 'news'])->name('news');
 //opportunities start
 Route::get('/opportunities', [OpportunityController::class, 'opportunities'])->name('opportunities');
 Route::get('/scholarship', [OpportunityController::class, 'scholarship'])->name('scholarship');
+//opportunity ends 
+Route::get('/contacts', [FrontController::class, 'contact'])->name('contact');
+Route::get('/faq', [FrontController::class, 'faq'])->name('faq');
+
 
