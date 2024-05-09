@@ -25,7 +25,7 @@
     <div class="container section-title" data-aos="fade-up">
       <br>
     <h2>About Homegrown Clean Energy</h2>
-    <p><em> <strong>Homegrown Clean Energy Solutions isn't just about technology; it's about people. By harnessing African talent and creativity, we can transform the continent's energy landscape. Imagine the ripple effect: reduced poverty, improved health, and a more resilient environment.</strong></em></p>
+    <p><em> Homegrown Clean Energy Solutions isn't just about technology; it's about people. By harnessing African talent and creativity, we can transform the continent's energy landscape. Imagine the ripple effect: reduced poverty, improved health, and a more resilient environment.</em></p>
   </div><!-- End Section Title -->    
     <section id="alt-services" class="alt-services section">
       <div class="container">
