@@ -26,6 +26,11 @@ class FrontController extends Controller
         return view('front.about.capacity_development');
     }
 
+    public function partnership()
+    {
+        return view('front.about.partnership');
+    }
+
     public function news()
     {
         return view('front.news.news');

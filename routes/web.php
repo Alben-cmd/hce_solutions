@@ -21,6 +21,7 @@ Route::get('/', [FrontController::class, 'index'])->name('home');
 Route::get('/about', [FrontController::class, 'about'])->name('about');
 Route::get('/outcomes', [FrontController::class, 'outcomes'])->name('outcomes');
 Route::get('/capacity_development', [FrontController::class, 'c_development'])->name('c_development');
+Route::get('/partnership', [FrontController::class, 'partnership'])->name('partnership');
 //about ends
 //projects start
 Route::get('/activities', [ProjectController::class, 'activities'])->name('activities');

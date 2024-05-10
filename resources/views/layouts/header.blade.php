@@ -15,6 +15,7 @@
               <li><a href="{{ route('about') }}">About HCE</a></li>
               <li><a href="{{ route('outcomes') }} ">Expected Outcomes</a></li>
               <li><a href="{{ route('c_development') }} ">Capacity Development</a></li>
+              <li><a href="{{ route('partnership') }} ">Partnerships</a></li>
               
               </li>
             </ul>
