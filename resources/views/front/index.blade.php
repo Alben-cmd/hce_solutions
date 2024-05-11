@@ -12,9 +12,12 @@
       <div class="info d-flex align-items-center">
         <div class="container">
           <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-6 text-center">
-              <h2 class="">Welcome to Homegrown Clean Energy Solutions</h2>
-              <p>A groundbreaking initiative igniting Africa's clean energy future. We believe the key to Africa's energy independence and environmental well-being lies within its people. That's why we're fostering a powerful movement built on collaboration, innovation, and homegrown ingenuity</p>
+            <div class="col-lg-10 text-center">
+              <h2 class="">Homegrown Clean Energy Solutions</h2>
+              <!-- <p>A groundbreaking initiative igniting Africa's clean energy future. We believe the key to Africa's energy independence and environmental well-being lies within its people. That's why we're fostering a powerful movement built on collaboration, innovation, and homegrown ingenuity</p> -->
+              <div>
+              <p class="px-3">An initiative in Africa is focusing on clean energy to promote energy independence and environmental well-being through collaboration and innovation.</p>
+              </div>
               <!-- <a href="#get-started" class="btn-get-started">Get Started</a> -->
             </div>
           </div>

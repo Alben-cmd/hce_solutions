@@ -13,7 +13,7 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href=" {{ route('home') }} ">Home</a></li>
-            <li class="current">Opportunities</li>
+            <li class="current">Carer</li>
           </ol>
         </nav>
       </div>

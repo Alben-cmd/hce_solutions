@@ -48,7 +48,7 @@
           </li> -->
           <li class="dropdown"><a href="#" class="{{ Request()->is('opportunities', 'scholarship') ? 'active' : '' }}"><span>Opportunities</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="{{ route('opportunities') }} ">Opportunities</a></li>
+              <li><a href="{{ route('carer') }} ">Carer</a></li>
               <li><a href="{{ route('scholarship') }}">Scholarships</a></li>
             </ul>
           </li> 
