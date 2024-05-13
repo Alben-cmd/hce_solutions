@@ -9,7 +9,7 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
       <div class="container position-relative">
-        <h1>About</h1>
+        <h1>Partnerships</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href=" {{ route('home') }} ">Home</a></li>
@@ -18,9 +18,9 @@
         </nav>
       </div>
     </div><!-- End Page Title -->
-    <div class="container section-title" data-aos="fade-up">
+    <div class="container section-title" data-aos="fade-up" style="padding-top: 20px">
         <br>
-      <h2>HCE Partnerships</h2>
+      <h2>Partnerships</h2>
       <p><em>The Homegrown Clean Energy Solutions Project isn't a solo act – it's a powerful symphony of collaboration! We're uniting a diverse chorus of brilliant minds from across Africa, each institution bringing its unique strengths to the stage.</p> 
       <p>From leading universities to innovative private companies, our partners and associates are the driving force behind our clean energy revolution.</em></p>
     </div>
@@ -57,7 +57,7 @@
                       <li data-filter=".filter-associates">Associates</li>
                     </ul><!-- End Portfolio Filters -->
           
-                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200" style="padding-bottom: 20px">
           
                       <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-partners">
                         <div class="portfolio-content h-100">

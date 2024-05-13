@@ -9,7 +9,7 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
       <div class="container position-relative">
-        <h1>Projects</h1>
+        <h1>Project Impacts</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href=" {{ route('home') }} ">Home</a></li>
@@ -25,7 +25,7 @@
             <section id="services" class="services section">
 
                 <!-- Section Title -->
-                <div class="container section-title" data-aos="fade-up">
+                <div class="container section-title" data-aos="fade-up" style="padding-top: 20px">
                     <br>
                   <h2>Project Impact</h2>
                   <p>This project aims to promote clean energy solutions and climate action in Africa. Here's how different target groups will benefit:</p>

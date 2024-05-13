@@ -9,11 +9,11 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
       <div class="container position-relative">
-        <h1>About</h1>
+        <h1>Expected Outcomes</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href=" {{ route('home') }} ">Home</a></li>
-            <li class="current">HCE Expected Outcomes</li>
+            <li class="current">Expected Outcomes</li>
           </ol>
         </nav>
       </div>
@@ -22,7 +22,7 @@
     <!-- Alt Services Section -->
             <!-- Section Title -->
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
+    <div class="container section-title" data-aos="fade-up" style="padding-top: 20px">
       <br>
     <h2>Expected Outcomes</h2>
     <p><em>The Homegrown Clean Energy Solutions Project is a groundbreaking initiative empowering Africa to tackle climate change and achieve energy independence. Here's how we envision a brighter future:</em></p>
@@ -136,7 +136,7 @@
     <section id="services" class="services section">
 
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <div class="container section-title2" data-aos="fade-up">
           <!-- <h2>Services</h2> -->
           <p> <em> <strong>By achieving these outcomes, the Homegrown Clean Energy Solutions Project will empower Africa to create a sustainable future powered by clean energy, innovation, and opportunity. Join us in making it a reality!</strong></em></p>
         </div><!-- End Section Title -->

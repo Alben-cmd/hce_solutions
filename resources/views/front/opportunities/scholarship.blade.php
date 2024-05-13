@@ -9,7 +9,7 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
       <div class="container position-relative">
-        <h1>Opportunities</h1>
+        <h1>Scholarship</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href=" {{ route('home') }} ">Home</a></li>
@@ -25,7 +25,7 @@
             <section id="services" class="services section">
 
                 <!-- Section Title -->
-                <div class="container section-title" data-aos="fade-up">
+                <div class="container section-title" data-aos="fade-up" style="padding-top: 20px">
                     <br>
                   <h2>Scholarships</h2>
                   <p><strong>Shape Africa's clean energy future with a world-class scholarship! </strong>This program connects you with prestigious universities offering a range of exceptional degrees. Master cutting-edge technologies and groundbreaking strategies to build a sustainable future.</p>

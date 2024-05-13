@@ -9,11 +9,11 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
       <div class="container position-relative">
-        <h1>About</h1>
+        <h1>Capacity Development</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href=" {{ route('home') }} ">Home</a></li>
-            <li class="current">Capacity Development </li>
+            <li class="current">Capacity Development</li>
           </ol>
         </nav>
       </div>
@@ -70,7 +70,7 @@
                     </div><!-- End Service Item -->
              
                     <br>
-                    <div class="container section-title" data-aos="fade-up">
+                    <div class="container section-title2" data-aos="fade-up">
             
                         <p> <em> <strong>Join us in building a brighter tomorrow. Explore our upcoming programs and events, or contact us to learn more about how you can get involved!</strong></em></p>
                     </div><!-- End Section Title -->

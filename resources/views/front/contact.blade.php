@@ -19,7 +19,7 @@
       </div><!-- End Page Title -->
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="contact" class="contact section" style="padding-top: 40px">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 

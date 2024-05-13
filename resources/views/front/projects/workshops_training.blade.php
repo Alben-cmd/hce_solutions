@@ -10,7 +10,7 @@
     <div class="page-title" data-aos="fade"
         style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
         <div class="container position-relative">
-            <h1>Projects</h1>
+            <h1>Workshops Training</h1>
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href=" {{ route('home') }} ">Home</a></li>
@@ -26,7 +26,7 @@
     <section id="services" class="services section">
 
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <div class="container section-title" data-aos="fade-up" style="padding-top: 20px">
             <br>
             <h2>Workshops and Trainings</h2>
             <p>The HCE Solutions project offers a comprehensive training program designed to support the development and
@@ -81,7 +81,7 @@
             </div><!-- End Service Item -->
             <br>
 
-            <div data-aos="fade-up" data-aos-delay="200">
+            <div data-aos="fade-up" data-aos-delay="200" style="padding-bottom: 30px">
                 <div class="service-item position-relative">
                     <div class="icon">
                         <i class="fa-sharp fa-solid fa-chalkboard-user"></i>

@@ -9,11 +9,11 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
       <div class="container position-relative">
-        <h1>Opportunities</h1>
+        <h1>Career</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href=" {{ route('home') }} ">Home</a></li>
-            <li class="current">Carer</li>
+            <li class="current">Career</li>
           </ol>
         </nav>
       </div>

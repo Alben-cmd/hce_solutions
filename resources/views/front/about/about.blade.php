@@ -9,7 +9,7 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
       <div class="container position-relative">
-        <h1>About</h1>
+        <h1>About HCE</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href=" {{ route('home') }} ">Home</a></li>
@@ -22,7 +22,7 @@
     <!-- Alt Services Section -->
             <!-- Section Title -->
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
+    <div class="container section-title" data-aos="fade-up" style="padding-top: 20px">
       <br>
     <h2>Homegrown Clean Energy</h2>
     <p><em> Homegrown Clean Energy Solutions isn't just about technology; it's about people. By harnessing African talent and creativity, we can transform the continent's energy landscape. Imagine the ripple effect: reduced poverty, improved health, and a more resilient environment.</em></p>
@@ -144,7 +144,7 @@
     <section id="services" class="services section">
 
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <div class="container section-title2" data-aos="fade-up">
           <!-- <h2>Services</h2> -->
           <p> <em> <strong>Join us in this groundbreaking initiative. Together, let's power Africa's future with homegrown clean energy solutions!</strong></em></p>
         </div><!-- End Section Title -->

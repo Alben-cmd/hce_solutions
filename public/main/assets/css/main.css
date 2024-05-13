@@ -679,6 +679,12 @@ section,
   padding-bottom: 60px;
   position: relative;
 }
+.section-title2 {
+  text-align: center;
+  padding-top:15px;
+  padding-bottom:15px;
+  position: relative;
+}
 
 .section-title h2 {
   font-size: 32px;

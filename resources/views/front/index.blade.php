@@ -62,7 +62,7 @@
     <section id="services" class="services section">
 
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <div class="container section-title" data-aos="fade-up" style="padding-top: 27px">
           <h2>Why Choose Us</h2>
           <p>Here's why you can expect exceptional results from us...</p>
         </div><!-- End Section Title -->
@@ -186,7 +186,7 @@
           <p>Stay updated on our latest developments, upcoming workshops, and exciting opportunities to get involved. </p>
           <br>
           <p><em><strong>Together, let's ignite a clean energy revolution that empowers Africa to build a brighter, more sustainable future!</strong></em></p><br>
-          <a href="#"><button type="button" class="btn btn-outline-success"><em>Get involved</em></button></a><br><br>
+          <a href="#"><button type="button" class="btn btn-outline-success"><em>Get Involved</em></button></a><br><br>
           <p>Explore partnership opportunities, volunteer your expertise, or simply spread the word!</p>
         </div><!-- End Section Title -->
 

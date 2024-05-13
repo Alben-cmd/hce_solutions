@@ -15,10 +15,10 @@
           <h4>Useful Links</h4>
           <ul>
             <li><a href="{{ route('home') }} ">Home</a></li>
-            <li><a href="{{ route('about') }} ">About us</a></li>
+            <li><a href="{{ route('about') }} ">About HCE</a></li>
             <li><a href="{{ route('achievements') }} ">Archivements</a></li>
             <li><a href="{{ route('news') }} ">News</a></li>
-            <li><a href="{{ route('contact') }} ">Contact Us</a></li>
+            <li><a href="{{ route('contact') }} ">Contact HCE</a></li>
             <li><a href="{{ route('faq') }} ">FAQ</a></li>
           </ul>
         </div>
@@ -29,7 +29,7 @@
         
             <p>Main Campus, Gidan-Kwano, Bida Road, </p>
             <p>Minna, Niger State, Nigeria</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+2348033945009, +234803394009</span></p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+2348033945009</span></p>
             <p><strong>Email:</strong> <span>hce.solutions@futminna.edu.ng</span></p>
           </div>
         </div>
