@@ -85,7 +85,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Building Capacity</h4>
-                  <p>We'll equip universities with the resources to train a new generation of clean energy experts.</p>
+                  <p style="text-align:justify;">We'll equip universities with the resources to train a new generation of clean energy experts.</p>
                 </div>
               </div><!-- End Icon Box -->
 
@@ -93,7 +93,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Fostering Innovation</h4>
-                  <p>By promoting knowledge exchange and research collaborations, we'll unlock Africa's potential for homegrown solutions.</p>
+                  <p style="text-align:justify;">By promoting knowledge exchange and research collaborations, we'll unlock Africa's potential for homegrown solutions.</p>
                 </div>
               </div><!-- End Icon Box -->
 
@@ -101,7 +101,7 @@
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
                   <h4>Empowering Communities</h4>
-                  <p>We'll prioritize gender equality and social inclusion, ensuring everyone benefits from clean energy access.</p>
+                  <p style="text-align:justify;">We'll prioritize gender equality and social inclusion, ensuring everyone benefits from clean energy access.</p>
                 </div>
               </div><!-- End Icon Box -->
             </div>
@@ -124,12 +124,13 @@
 
           <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
             
-              <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <div class="order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                 <h4><strong>Our specific objectives?</strong></h4>
                     
-                <ul>
-                    <li><i class="bi bi-check2-all"></i> <span>To promote the development of Homegrown Clean Energy (HCE) solutions to make them available for the underrepresented. </span></li>
-                    <li><i class="bi bi-check2-all"></i> <span>To facilitate knowledge sharing and technology transfer amongst participating institutions and raise awareness on climate change-driven clean energy solutions.</span></li>
+                <ul class="list-unstyled">
+                    <li ><i class="bi bi-check2-all"></i> <span>To promote the development of Homegrown Clean Energy (HCE) solutions to make them available for the underrepresented. </span></li>
+                    <li><i class="bi bi-check2-all"></i> 
+                      <span>To facilitate knowledge sharing and technology transfer amongst participating institutions and raise awareness on climate change-driven clean energy solutions.</span></li>
                     <li><i class="bi bi-check2-all"></i> <span>To enhance entrepreneurship skills development on clean energy solutions for climate change adaptation and mitigation in Africa. </span></li>
                     <li><i class="bi bi-check2-all"></i> <span>To promote gender equality and social-just climate inclusion on clean energy solutions for adaptation and mitigation in Africa.</span></li>
                 </ul>

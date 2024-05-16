@@ -32,7 +32,7 @@
             <div data-aos="fade-up">
               <h4>Leading the Charge</h4>
               <br>
-              <p>
+              <p style="text-align:justify;">
                 Federal University of Technology Minna (FUTMIN), Nigeria, serves as the esteemed coordinator of the Homegrown Clean Energy Solutions Project. </p>
                 <p>FUTMIN brings its renowned expertise in clean energy research and development to spearhead this groundbreaking initiative. FUTMIN fosters a collaborative spirit, uniting diverse partners across Africa to achieve a shared clean energy future
               </p>

@@ -64,7 +64,7 @@
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up" style="padding-top: 27px">
           <h2>Why Choose Us</h2>
-          <p>Here's why you can expect exceptional results from us...</p>
+          <!-- <p>Here's why you can expect exceptional results from us...</p> -->
         </div><!-- End Section Title -->
   
         <div class="container">

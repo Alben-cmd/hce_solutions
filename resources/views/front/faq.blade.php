@@ -20,7 +20,7 @@
       <section id="services" class="services section" style="padding-top: 20px">
       <div class="container section-title" data-aos="fade-up">
         <br>
-      <h2>Frequenty Asked Qustions</h2>
+      <h2>Frequenty Asked Questions</h2>
     </div>
   </section>
       <style type="text/css">

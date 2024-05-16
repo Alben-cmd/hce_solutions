@@ -38,7 +38,6 @@
               <i class="bi bi-telephone"></i>
               <h3>Call Us</h3>
               <p>+234 8033945009</p>
-              <p>+234 803394009</p>
             </div>
           </div><!-- End Info Item -->
 
@@ -52,7 +51,7 @@
 
         </div>
 
-        <div class="row gy-4 mt-1">
+        <div class="row gy-4 mt-1 pb-4">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <iframe width="523" height="403" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=523&amp;height=403&amp;hl=en&amp;q=Federal%20University%20of%20Technology%20Minna%20+(Homegrown%20Clean%20Energy)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://google-map-generator.com/'></a>
 
