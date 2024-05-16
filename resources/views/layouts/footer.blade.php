@@ -29,7 +29,7 @@
         
             <p>Main Campus, Gidan-Kwano, Bida Road, </p>
             <p>Minna, Niger State, Nigeria</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+2348033945009</span></p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+234 8033945009</span></p>
             <p><strong>Email:</strong> <span>hce.solutions@futminna.edu.ng</span></p>
           </div>
         </div>
