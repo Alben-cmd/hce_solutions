@@ -8,7 +8,7 @@
 
     <!-- Page Title -->
     <div class="page-title" data-aos="fade"
-        style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
+        style="background-image: url({{asset('main/assets/img/project-bg.jpg')}});">
         <div class="container position-relative">
             <h1>Workshops Training</h1>
             <nav class="breadcrumbs">

@@ -7,7 +7,7 @@
 <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
+    <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/about-bg.jpg')}});">
       <div class="container position-relative">
         <h1>Capacity Development</h1>
         <nav class="breadcrumbs">

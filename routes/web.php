@@ -37,4 +37,10 @@ Route::get('/scholarship', [OpportunityController::class, 'scholarship'])->name(
 Route::get('/contacts', [FrontController::class, 'contact'])->name('contact');
 Route::get('/faq', [FrontController::class, 'faq'])->name('faq');
 
+//Admin section 
+Route::get('/dasboard', [FrontController::class, 'dasboard'])->name('dasboard');
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -6,7 +6,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
+    <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/about-bg.jpg')}});">
       <div class="container position-relative">
         <h1>Expected Outcomes</h1>
         <nav class="breadcrumbs">
@@ -27,8 +27,8 @@
     <style type="text/css">
       body{margin-top:10px;}
       .section_padding_130 {
-          padding-top: 5px;
-          padding-bottom: 130px;
+          padding-top: 2px;
+          padding-bottom: 3px;
       }
       .faq_area {
           position: relative;
@@ -117,7 +117,7 @@
             <div class="accordion faq-accordian" id="faqAccordion">
               <div class="row justify-content-center">
                 <div class="col-6 pb-4">
-                  <div class="card border-0 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                  <div class="card rounded-3 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                     <div class="card-header" id="headingOne">
                       <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"  data-aos="fade-up">Building the Next Generation of Clean Energy Experts<span class="lni-chevron-up"></span></h6>
                     </div>
@@ -131,7 +131,7 @@
                   </div>
                 </div>
                 <div class="col-6 pb-4">
-                  <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                  <div class="card rounded-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="card-header" id="headingTwo">
                       <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"  data-aos="fade-up">Fostering Stronger Regional Collaboration<span class="lni-chevron-up"></span></h6>
                     </div>
@@ -145,7 +145,7 @@
                   </div>
                 </div>
                 <div class="col-6 pb-4">
-                  <div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                  <div class="card rounded-3 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                     <div class="card-header" id="headingThree">
                       <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree"  data-aos="fade-up">Driving Sustainable Economic Growth and Green Jobs<span class="lni-chevron-up"></span></h6>
                     </div>
@@ -159,7 +159,7 @@
                   </div>
                 </div>
                 <div class="col-6 pb-4">
-                  <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                  <div class="card rounded-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="card-header" id="headingFour">
                       <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"  data-aos="fade-up">Building Partnerships for Long-Term Impact<span class="lni-chevron-up"></span></h6>
                     </div>
@@ -172,7 +172,7 @@
                   </div>
                 </div>
                 <div class="col-6 pb-4">
-                  <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                  <div class="card rounded-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="card-header" id="headingFive">
                       <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive"  data-aos="fade-up">Empowering Local Innovation and Knowledge Retention<span class="lni-chevron-up"></span></h6>
                     </div>
@@ -185,7 +185,7 @@
                   </div>
                 </div>
                 <div class="col-6 pb-4">
-                  <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                  <div class="card rounded-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="card-header" id="headingSix">
                       <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix"  data-aos="fade-up">Building Resilience for a Sustainable Future<span class="lni-chevron-up"></span></h6>
                     </div>
@@ -200,7 +200,7 @@
                   </div>
                 </div>  
                 <div class="col-6 pb-4">
-                  <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                  <div class="card rounded-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="card-header" id="headingz">
                       <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapsez" aria-expanded="true" aria-controls="collapsez"  data-aos="fade-up">Investing in the Future<span class="lni-chevron-up"></span></h6>
                     </div>
@@ -215,7 +215,7 @@
                   </div>
                 </div>        
                 <div class="col-6 pb-4">
-                  <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                  <div class="card rounded-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="card-header" id="headingy">
                       <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapsey" aria-expanded="true" aria-controls="collapsey"  data-aos="fade-up">Building a Sustainable Future Together<span class="lni-chevron-up"></span></h6>
                     </div>
@@ -228,7 +228,7 @@
                   </div>
                 </div>      
                 <div class="col-6 pb-4">
-                  <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                  <div class="card rounded-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                   <div class="card-header" id="headingx">
                     <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapsex" aria-expanded="true" aria-controls="collapsex"  data-aos="fade-up">Increased Gender Equality and Social Inclusion<span class="lni-chevron-up"></span></h6>
                   </div>

@@ -45,4 +45,9 @@ class FrontController extends Controller
     {
         return view('front.faq');
     }
+
+    public function dasboard()
+    {
+        return view('admin.dashboard');
+    }
 }

@@ -26,8 +26,8 @@
       <style type="text/css">
       body{margin-top:10px;}
       .section_padding_130 {
-          padding-top: 5px;
-          padding-bottom: 130px;
+          padding-top: 3px;
+          padding-bottom: 15px;
       }
       .faq_area {
           position: relative;

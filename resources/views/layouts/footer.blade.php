@@ -47,7 +47,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">HCE</strong> <span>All Rights Reserved</span></p>
+      <p>© Copyright <script type="text/javascript">document.write( new Date().getFullYear() );</script> <strong> HCE. </strong>All Rights Reserved. </p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
