@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\OpportunityController;
+use App\Http\Controllers\Admin\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,10 +38,12 @@ Route::get('/scholarship', [OpportunityController::class, 'scholarship'])->name(
 Route::get('/contacts', [FrontController::class, 'contact'])->name('contact');
 Route::get('/faq', [FrontController::class, 'faq'])->name('faq');
 
-//Admin section 
-Route::get('/dasboard', [FrontController::class, 'dasboard'])->name('dasboard');
-
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::group(['as' => 'admin.', 'prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => ['auth']], function () 
+{
+    Route::get('/', [DashboardController::class, 'dasboard'])->name('dasboard');
+});
