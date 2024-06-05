@@ -26,6 +26,11 @@
       <br>
     <h2>Homegrown Clean Energy</h2>
     <p><em> Homegrown Clean Energy Solutions isn't just about technology; it's about people. By harnessing African talent and creativity, we can transform the continent's energy landscape. Imagine the ripple effect: reduced poverty, improved health, and a more resilient environment.</em></p>
+    <br>
+    <p>
+     HCE is selected and funded under the scope of the Intra-Africa Academic Mobility Scheme, an EU's programme to encourage international learning mobility across the African continent. The programme provides support for consortia of African Higher Education Institutions and scholarship opportunities for African trainees, students and staff.<a href="https://www.eacea.ec.europa.eu/grants/2021-2027/intra-africa-academic-mobility-scheme_en" class="logo d-flex align-items-center"><em> Read more... <i class="bi bi-arrow-right"></i></em></a>
+      
+    </p>
   </div><!-- End Section Title -->    
     <section id="alt-services" class="alt-services section">
       <div class="container">
@@ -142,6 +147,27 @@
         
         </div>
     </div>
+
+    <div class="features section"> 
+      <div class="container">
+
+      <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
+          
+            <!-- <div class="order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <h4><strong>Disclaimer</strong></h4>
+                  <p style="text-align:justify; padding-bottom:5px;">
+                    Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.
+                  </p>
+            </div>   -->
+                  
+        </div><!-- End tab content item -->
+        
+      </div>
+      
+      </div>
+  </div>
     <section id="services" class="services section">
 
         <!-- Section Title -->

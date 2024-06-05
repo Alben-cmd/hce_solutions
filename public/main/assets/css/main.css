@@ -713,6 +713,11 @@ section,
   margin-bottom: 0;
 }
 
+.section-title a {
+  display: inline !important;
+  line-height: 1;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/

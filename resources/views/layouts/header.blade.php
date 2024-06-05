@@ -6,9 +6,9 @@
         <img src="{{ asset('main/assets/img/logo.png') }}" alt="">
         <h1 class="sitename">HCE</h1> <span>.</span>
       </a>
-      <a href="/" class="logo d-flex align-items-left">
+      <a href="https://www.eacea.ec.europa.eu/grants/2021-2027/intra-africa-academic-mobility-scheme_en" class="logo d-flex align-items-left">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="{{ asset('main/assets/img/eu_logo.jpg') }}" alt="">
+        <img src="{{ asset('main/assets/img/ec_logo.png') }}" alt="">
         
       </a>
 

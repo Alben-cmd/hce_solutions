@@ -28,7 +28,8 @@
 
         <div class="container">
           <div class="author-container d-flex align-items-center">
-            <img src="main/assets/img/partners/fut.jpg" class="rounded-circle flex-shrink-0" alt="">
+            <a href="https://futminna.edu.ng/"><img src="main/assets/img/partners/fut.jpg" class="rounded-circle flex-shrink-0" alt="fut logo"></a>
+            
             <div data-aos="fade-up">
               <h4>Leading the Charge</h4>
               <br>
@@ -36,6 +37,16 @@
                 Federal University of Technology Minna (FUTMIN), Nigeria, serves as the esteemed coordinator of the Homegrown Clean Energy Solutions Project. </p>
                 <p>FUTMIN brings its renowned expertise in clean energy research and development to spearhead this groundbreaking initiative. FUTMIN fosters a collaborative spirit, uniting diverse partners across Africa to achieve a shared clean energy future
               </p>
+            </div>
+          </div>
+          <br>
+          <div class="author-container d-flex align-items-center">
+            <a href="https://european-union.europa.eu/index_en"><img src="main/assets/img/partners/ec_founder.png" alt="eu logo">
+            <div data-aos="fade-up"></a> 
+              <h4>Co-founder</h4>
+              <br>
+              <p style="text-align:justify;">
+                The European Union (EU), serves as the esteemed co-founder to Clean Energy Solutions Project. </p>
             </div>
           </div>
         </div>

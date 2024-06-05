@@ -6,8 +6,11 @@
           <a href="{{ route('home') }} " class="logo d-flex align-items-center">
             <span class="sitename">Homegrown Clean Energy</span>
           </a>
-          <a href="#">
-            <img src="{{ asset('main/assets/img/logo.png') }}" style="width:200px;height:200px;" alt="">
+          <a href="/">
+            <img src="{{ asset('main/assets/img/logo.png') }}" style="width:100px;height:100px;" alt="">
+          </a>
+          <a href="https://www.eacea.ec.europa.eu/grants/2021-2027/intra-africa-academic-mobility-scheme_en">
+            <img src="{{ asset('main/assets/img/ec_logo.png') }}" style="width:250px;height:100px;" alt="">
           </a>
         </div>
 
@@ -44,10 +47,14 @@
           </div>
         </div>
       </div>
+      <h6>Disclaimer</h6>
+      <p><em>"Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them." </em></p>
     </div>
+    
 
     <div class="container copyright text-center mt-4">
       <p>© Copyright <script type="text/javascript">document.write( new Date().getFullYear() );</script> <strong> HCE. </strong>All Rights Reserved. </p>
+      
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
