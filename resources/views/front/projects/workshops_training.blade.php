@@ -34,29 +34,47 @@
                 cater to:</p>
         </div><!-- End Section Title -->
 
+        <section id="features" class="features section">
+
+            <div class="container">
+      
+              
+              <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+      
+                <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
+                  <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                     
+                      <ul>
+                        <li><i class="bi bi-check2-all"></i> <span>Building entrepreneurship skills for clean
+                                energy businesses</span></li>
+                        <li><i class="bi bi-check2-all"></i> <span>Facilitating knowledge exchange and
+                                curriculum development on clean energy</span></li>
+                        <li><i class="bi bi-check2-all"></i> <span>Promoting gender equality and social
+                                inclusion in clean energy initiatives</span></li>
+                        <li><i class="bi bi-check2-all"></i> <span>Promotion of clean energy including
+                                Artificial Intelligence algorithms</span></li>
+                    </ul>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 text-center">
+                      <img src="main/assets/img/workshop.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div><!-- End tab content item -->
+      
+                
+              </div>
+              <br> 
+      
+            </div>
+      
+          </section>
+          <br>
+
+
         <div class="container">
 
-            <div data-aos="fade-up" data-aos-delay="200">
-                <div class="service-item position-relative">
-
-                    <div class="features section">
-                        <div class=" tab-pane fade active show" id="features-tab-1" role="tabpanel">
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Building entrepreneurship skills for clean
-                                        energy businesses</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Facilitating knowledge exchange and
-                                        curriculum development on clean energy</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Promoting gender equality and social
-                                        inclusion in clean energy initiatives</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Promotion of clean energy including
-                                        Artificial Intelligence algorithms</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- End Service Item -->
-            <br>
-
+           
             <div data-aos="fade-up" data-aos-delay="200">
                 <div class="service-item position-relative">
                     <div class="icon">

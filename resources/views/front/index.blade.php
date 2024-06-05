@@ -16,7 +16,8 @@
               <h2 class="">Homegrown Clean Energy Solutions</h2>
               <!-- <p>A groundbreaking initiative igniting Africa's clean energy future. We believe the key to Africa's energy independence and environmental well-being lies within its people. That's why we're fostering a powerful movement built on collaboration, innovation, and homegrown ingenuity</p> -->
               <div>
-              <p class="px-3">An initiative in Africa is focusing on clean energy to promote energy independence and environmental well-being through collaboration and innovation.</p>
+              <p class="px-3">Selected for the Intra-Africa Academic Mobility Program, an initiative in Africa focusing on clean energy to promote energy independence and environmental well-being through collaboration and innovation.
+              </p>
               </div>
               <!-- <a href="#get-started" class="btn-get-started">Get Started</a> -->
             </div>
@@ -26,25 +27,19 @@
 
       <div id="section-fqREP4OWmC-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
-        <div class="carousel-item">
-          <img src="{{ asset('main/assets/img/hero-carousel/hero-carousel-1.jpg') }}" alt="">
-        </div>
-
         <div class="carousel-item active">
-          <img src="{{ asset('main/assets/img/hero-carousel/hero-carousel-2.jpg') }}" alt="">
+          <img src="{{ asset('main/assets/img/hero-carousel/hcebanner1.jpg') }}" alt="">
         </div>
 
         <div class="carousel-item">
-          <img src="{{ asset('main/assets/img/hero-carousel/hero-carousel-3.jpg') }}" alt="">
+          <img src="{{ asset('main/assets/img/hero-carousel/hcebanner2.jpg') }}" alt="">
         </div>
 
         <div class="carousel-item">
-          <img src="{{ asset('main/assets/img/hero-carousel/hero-carousel-4.jpg') }}" alt="">
+          <img src="{{ asset('main/assets/img/hero-carousel/hcebanner3.jpg') }}" alt="">
         </div>
 
-        <div class="carousel-item">
-          <img src="{{ asset('main/assets/img/hero-carousel/hero-carousel-5.jpg') }}" alt="">
-        </div>
+        
 
         <a class="carousel-control-prev" href="#section-fqREP4OWmC-carousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>

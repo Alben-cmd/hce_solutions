@@ -1,15 +1,20 @@
 <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="{{ route('home') }}" class="logo d-flex align-items-center">
+      <a href="/" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="{{ asset('main/assets/img/logo.png') }}" alt="">
         <h1 class="sitename">HCE</h1> <span>.</span>
       </a>
+      <a href="/" class="logo d-flex align-items-left">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="{{ asset('main/assets/img/eu_logo.jpg') }}" alt="">
+        
+      </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="{{ route('home') }} " class="{{ Request()->is('/') ? 'active' : '' }}">Home</a></li>
+          <li><a href="/" class="{{ Request()->is('/') ? 'active' : '' }}">Home</a></li>
           <li class="dropdown"><a href="#" class="{{ Request()->is('about', 'outcomes') ? 'active' : '' }}"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="{{ route('about') }}">About HCE</a></li>
@@ -46,12 +51,13 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li class="dropdown"><a href="#" class="{{ Request()->is('opportunities', 'scholarship') ? 'active' : '' }}"><span>Opportunities</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="{{ route('scholarship') }} " class="{{ Request()->is('scholarship') ? 'active' : '' }}">Scholarships</a></li>
+          <!-- <li class="dropdown"><a href="#" class="{{ Request()->is('opportunities', 'scholarship') ? 'active' : '' }}"><span>Opportunities</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="{{ route('career') }} ">Career</a></li>
               <li><a href="{{ route('scholarship') }}">Scholarships</a></li>
             </ul>
-          </li> 
+          </li>  -->
           <li><a href="{{ route('contact') }} " class="{{ Request()->is('contact') ? 'active' : '' }}">Contact</a></li>
           <li><a href="{{ route('faq') }} " class="{{ Request()->is('faq') ? 'active' : '' }}">FAQ</a></li>
         </ul>

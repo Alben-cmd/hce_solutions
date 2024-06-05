@@ -6,7 +6,7 @@
 <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
+    <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/contact-bg.jpg')}});">
         <div class="container position-relative">
           <h1>Contacts</h1>
           <nav class="breadcrumbs">

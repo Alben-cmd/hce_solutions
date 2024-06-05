@@ -109,7 +109,7 @@
           </div>
 
           <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-            <img src="main/assets/img/features-3-2.jpg" alt="">
+            <img src="main/assets/img/features-3.jpg" alt="">
           </div>
 
         </div>
