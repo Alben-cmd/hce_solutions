@@ -32,7 +32,7 @@ Route::get('/workshops_training', [ProjectController::class, 'workshops_training
 //projects ends
 Route::get('/news', [FrontController::class, 'news'])->name('news');
 //opportunities start
-Route::get('/career', [OpportunityController::class, 'career'])->name('career');
+Route::get('/opportunities', [OpportunityController::class, 'opportunities'])->name('opportunities');
 Route::get('/scholarship', [OpportunityController::class, 'scholarship'])->name('scholarship');
 //opportunity ends 
 Route::get('/contacts', [FrontController::class, 'contact'])->name('contact');

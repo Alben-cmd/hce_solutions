@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class OpportunityController extends Controller
 {
-    public function career(){
+    public function opportunities(){
 
-        return view('front.opportunities.career ');
+        return view('front.opportunities.opportunities ');
     }
 
     public function scholarship(){
