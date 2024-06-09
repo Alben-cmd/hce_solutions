@@ -7,7 +7,7 @@
   <main class="main">
     @include('layouts.faq_style')
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/page-title-bg.jpg')}});">
+    <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/scholarship-bg.jpg')}});">
       <div class="container position-relative">
         <h1>Scholarship</h1>
         <nav class="breadcrumbs">
@@ -24,28 +24,27 @@
             <section id="projects" class="projects section">
 
               <!-- Section Title -->
-              <div class="container section-title" data-aos="fade-up">
+              <div class="container section-title" data-aos="fade-up" style="padding-top: 20px">
                 <h2> EACEA Grant</h2>
-                <p><strong>Awarded Funding for Academic Mobility in Clean Energy: A Consortium of Six African Universities</strong></p>
+                <p id="general"><strong>Shape Africa's clean energy future with a world-class scholarship! </strong>This program connects you with prestigious universities offering a range of exceptional degrees. Master cutting-edge technologies and groundbreaking strategies to build a sustainable future.</p>
                 <br>
                 <p>A consortium of six African universities awarded funding from the European Education and Culture Executive Agency (EACEA) for an academic mobility scheme focused on Homegrown Clean Energy Solutions, targeting postgraduate students and staff for capacity building.</p>
                 <br>
-                <p><strong><em>Apply, now by sending your CV and a 3 page proposal documents to hce.solutions@futminna.edu.ng</em></strong></p>
+                <p><strong><em>Apply, now by sending your CV and a 3 page proposal documents to <a href="mailto:hce.solutions@futminna.edu.ng">hce.solutions@futminna.edu.ng</a></em></strong></p>
               </div><!-- End Section Title -->
         
               <div class="container">
         
                 <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
         
-                  <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-remodeling">General Information</li>
-                    <li data-filter=".filter-construction">Admission Requirements</li>
-                    <li data-filter=".filter-repairs">Selection Process</li>
+                  <ul class="portfolio-filters isotope-filters" style="position: sticky; top: 70px; z-index: 1000;" data-aos="fade-up" data-aos-delay="100">
+                    
+                    <li class="filter-active"><span class="badge rounded-pill bg-light text-dark" disabled aria-disabled="true"></span</li>
+                      <li><a href="#general"><span class="badge rounded-pill bg-success">General Information</span></a></li>
+                    <li><a href="#requirements"><span class="badge rounded-pill bg-success">Admission Requirements</span></a></li>
+                    <li><a href="#selection"><span class="badge rounded-pill bg-success">Selection Process</span></a></li>
                   </ul><!-- End Portfolio Filters -->
-        
-                  <div class="gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-        
+                    <hr>
                     <div class="portfolio-item isotope-item filter-remodeling">
                         <p style="text-align:justify;">The program will support 21 Master's students, 9 Doctorate students, 7 trainees, and 4 staff into the mobility Program from across national and disciplinary borders for postgraduate studies, skills acquisition, and research/teaching mobility aimed at developing the capability for developing homegrown clean energy solutions to address climate challenges in Africa. The countries in Target Group I are Benin, Nigeria, Uganda, and Zimbabwe. Other countries of Africa are grouped under the Target Group II.</p>
                         <h5>For the Target Group I, the Institutions Involved are:</h5>
@@ -126,7 +125,7 @@
                         <p>The program will provide the tuition fee and pay a monthly subsistence allowance ( Masters Students @ €890 per month, Ph.D students @ €1,230 per month, trainee @ €1,230 per month, and staff @ €2,370 per month). The scholarship will: </p>
                         <div class="row">
                           <div class="col-6">
-                            <div class="features section">
+                            <div class="features section" id="requirements">
         
                               <div class=" tab-pane fade active show" id="features-tab-1" role="tabpanel">
                                   <ul>
@@ -159,7 +158,7 @@
                     
         
                     <div class="portfolio-item isotope-item filter-construction">
-                      <h5>Requirements for the Different Universities for the Programmes are as Shown Below;</h5>
+                      <h5 class="pt-2 pb-2"><strong>Requirements for the Different Universities:</strong></h5>
                       <div class="faq_area section_padding_13 pt-3" id="faq">
                         <div class="container">
                           <div class="">
@@ -337,7 +336,7 @@
                                 </div>
                                 <!-- Uganda Martyrs University ends -->
                                 <!-- University of Nigeria start -->
-                                <div class="col-12 pb-4">
+                                <div class="col-12 pb-4" id='selection'>
                                   <div class="card rounded-3" data-wow-delay="0.2s" style="visibility: visible;">
                                     <div class="card-header" id="headingEight">
                                       <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">University of Nigeria - Nigeria<span class="lni-chevron-up"><i class="bi bi-arrow-bar-down"></i></span></h6>
@@ -586,20 +585,20 @@
                         
                       </div>
                       <br>
-                      <h5>The Academic Flow for Masters</h5>
+                      {{-- <h5>The Academic Flow for Masters</h5>
                       <div class="pb-4" style="text-align: center; vertical-align: middle; border: 0;"><img src="main/assets/img/academic_flow.png" class="img-fluid" alt="masters academic flow"> </div>
                       <h5>The Academic Flow for PhD</h5>
                       <div class="pb-4" style="text-align: center; vertical-align: middle; border: 0;"><img src="main/assets/img/phd_flow.png" class="img-fluid" alt="phd academic flow"> </div>
                       <h5>The Academic Flow for Staff Exchange</h5>
-                      <div class="pb-4" style="text-align: center; vertical-align: middle; border: 0;"><img src="main/assets/img/staff_exchange.png" class="img-fluid" alt="staff exchange"> </div>
+                      <div class="pb-4" style="text-align: center; vertical-align: middle; border: 0;"><img src="main/assets/img/staff_exchange.png" class="img-fluid" alt="staff exchange"> </div> --}}
                       
                       
                                        
 
                     </div><!-- End Portfolio Item -->
-        
-                    <div class="portfolio-item isotope-item filter-repairs">
-                      <h5>Application and Selection Process </h5>
+                    <hr>
+                    <div class="portfolio-item isotope-item filter-repairs" id="selection">
+                      <h5><strong>Application and Selection Process </strong></h5>
                       <p style="text-align:justify;">The program guarantees an impartial and transparent selection and admission process based on merit, and equal opportunities as well as maintaining standards. Applications will be subjected to an external review process to avoid bias and ensure that the based candidates are selected. The following are guidelines for a successful application:</p>
                       <div class="features section">
                         <div class=" tab-pane fade active show" id="features-tab-1" role="tabpanel">
@@ -614,12 +613,10 @@
                           </ul>
                         </div>
                       </div>  
-                      <p>To apply, send your CV and a 3 page proposal documents to<email> hce.solutions@futminna.edu.ng</email>  </p>
+                      <p>To apply, send your CV and a 3 page proposal documents to <a href="mailto:hce.solutions@futminna.edu.ng">hce.solutions@futminna.edu.ng</a></p>
 
                     </div><!-- End Portfolio Item -->
         
-        
-                  </div><!-- End Portfolio Container -->
         
                 </div>
         

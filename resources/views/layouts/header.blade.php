@@ -53,12 +53,17 @@
           </li> -->
           
           <!-- <li><a href="{{ route('scholarship') }} " class="{{ Request()->is('scholarship') ? 'active' : '' }}">Scholarships</a></li> -->
-          <li class="dropdown"><a href="#" class="{{ Request()->is('opportunities', 'scholarship') ? 'active' : '' }}"><span>Opportunity</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <!-- <li class="dropdown"><a href="#" class="{{ Request()->is('opportunities', 'scholarship') ? 'active' : '' }}"><span>Opportunity</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
+          </a>
             <ul>
               <li><a href="{{ route('opportunities') }} ">Opportunities</a></li>
               <li><a href="{{ route('scholarship') }}">Scholarships</a></li>
             </ul>
-          </li> 
+          </li>  -->
+          <li><a href="{{ route('scholarship') }} " class="{{ Request()->is('scholarship') ? 'active' : '' }}">Scholarship</a>
+            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-success" style="top: 5px!important;">
+              On
+            </span></li>
           <li><a href="{{ route('contact') }} " class="{{ Request()->is('contact') ? 'active' : '' }}">Contact</a></li>
           <li><a href="{{ route('faq') }} " class="{{ Request()->is('faq') ? 'active' : '' }}">FAQ</a></li>
         </ul>
