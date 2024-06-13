@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Opportunities: HCE')
+@section('title', 'Partnership: HCE')
 
 @section('content')
 
@@ -43,7 +43,7 @@
           <div class="author-container d-flex align-items-center">
             <a href="https://european-union.europa.eu/index_en"><img src="main/assets/img/partners/ec_founder.png" alt="eu logo">
             <div data-aos="fade-up"></a> 
-              <h4>Co-founder</h4>
+              <h4>Co-funder</h4>
               <br>
               <p style="text-align:justify;">
                 The European Union (EU), serves as the esteemed co-founder to Clean Energy Solutions Project. </p>
@@ -80,6 +80,17 @@
                           </div>
                         </div>
                       </div><!-- End Portfolio Item -->
+
+                      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-associates">
+                        <div class="portfolio-content h-100">
+                          <img src="main/assets/img/associates/instituto.png" class="img-fluid" alt="">
+                          <div class="portfolio-info">
+                            <!-- <h4>Product 2</h4> -->
+                            <p>Instituto Politecnico Do Porto, Portugal</p>
+                            <a href="#" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                          </div>
+                        </div>
+                      </div><!-- End Portfolio Item -->
           
                       <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-partners">
                         <div class="portfolio-content h-100">
@@ -113,7 +124,9 @@
                           </div>
                         </div>
                       </div><!-- End Portfolio Item -->
-          
+                      
+                      
+
                       <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-partners">
                         <div class="portfolio-content h-100">
                           <img src="main/assets/img/partners/zimbabwe.png" class="img-fluid" alt="">
@@ -124,14 +137,14 @@
                           </div>
                         </div>
                       </div><!-- End Portfolio Item -->
-          
+
                       <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-associates">
                         <div class="portfolio-content h-100">
-                          <img src="main/assets/img/associates/instituto.png" class="img-fluid" alt="">
+                          <img src="main/assets/img/associates/ruforum.png" class="img-fluid" alt="">
                           <div class="portfolio-info">
-                            <!-- <h4>Product 2</h4> -->
-                            <p>Instituto Politecnico Do Porto, Portugal</p>
-                            <a href="#" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            <!-- <h4>Books 2</h4> -->
+                            <p>Regional Universities Forum for Capacity Building in Agriculture (RUFORUM)</p>
+                            <a href="http://www.ruforum.org/" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
                           </div>
                         </div>
                       </div><!-- End Portfolio Item -->
@@ -147,16 +160,6 @@
                         </div>
                       </div><!-- End Portfolio Item -->
           
-                      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-associates">
-                        <div class="portfolio-content h-100">
-                          <img src="main/assets/img/associates/ruforum.png" class="img-fluid" alt="">
-                          <div class="portfolio-info">
-                            <!-- <h4>Books 2</h4> -->
-                            <p>Regional Universities Forum for Capacity Building in Agriculture (RUFORUM)</p>
-                            <a href="http://www.ruforum.org/" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                          </div>
-                        </div>
-                      </div><!-- End Portfolio Item -->
           
                       <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-associates">
                         <div class="portfolio-content h-100">

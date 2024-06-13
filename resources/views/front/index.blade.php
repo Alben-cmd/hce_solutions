@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'HCE - Home')
+@section('title', 'Home: HCE')
 
 @section('content')
 

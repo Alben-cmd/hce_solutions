@@ -60,10 +60,7 @@
               <li><a href="{{ route('scholarship') }}">Scholarships</a></li>
             </ul>
           </li>  -->
-          <li><a href="{{ route('scholarship') }} " class="{{ Request()->is('scholarship') ? 'active' : '' }}">Scholarship</a>
-            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-success" style="top: 5px!important;">
-              On
-            </span></li>
+          <li><a href="{{ route('scholarship') }} " class="{{ Request()->is('scholarship') ? 'active' : '' }}"><button type="button" class="btn btn-outline-info">Scholarship</button></a></li>
           <li><a href="{{ route('contact') }} " class="{{ Request()->is('contact') ? 'active' : '' }}">Contact</a></li>
           <li><a href="{{ route('faq') }} " class="{{ Request()->is('faq') ? 'active' : '' }}">FAQ</a></li>
         </ul>

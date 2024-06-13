@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Scholarship: HCE')
+@section('title', 'Contact: HCE')
 
 @section('content')
 <main class="main">

@@ -12,6 +12,9 @@
           <a href="https://www.eacea.ec.europa.eu/grants/2021-2027/intra-africa-academic-mobility-scheme_en">
             <img src="{{ asset('main/assets/img/ec_logo.png') }}" style="width:250px;height:100px;" alt="">
           </a>
+          <a href="https://european-union.europa.eu/index_en">
+            <img src="{{ asset('main/assets/img/partners/ec_founder.png') }}" style="width:100px;height:100px;" alt="">
+          </a>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
