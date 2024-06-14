@@ -32,6 +32,13 @@
                 <br>
                 <p><strong><em>Apply, now by sending your CV and a 3 page proposal documents to <a href="mailto:hce.solutions@futminna.edu.ng">hce.solutions@futminna.edu.ng</a></em></strong></p>
               </div><!-- End Section Title -->
+              <div class="single_counter counter_1 d-flex justify-content-center align-items-center wow fadeInUpBig"
+                                data-wow-duration="1.3s" data-wow-delay="0.2s">
+                                <div class="counter_wrapper">
+                                    <span class="counter">14</span>
+                                    <p>Executed Projects</p>
+                                </div>
+                            </div>
         
               <div class="container">
         
@@ -343,8 +350,8 @@
                                     </div>
                                     <div class="collapse" id="collapseEight" aria-labelledby="headingEight" data-parent="#faqAccordion">
                                       <div class="card-body">
-                                        <!-- <div class="pb-4" style="text-align: center; vertical-align: middle; border: 0;"><img src="main/assets/img/nigeria.png" class="img-fluid" alt="masters academic flow"> </div> -->
-                                        <table class="table table-striped">
+                                        <div class="pb-4" style="text-align: center; vertical-align: middle; border: 0;"><img src="main/assets/img/nigeria.png" class="img-fluid" alt="masters academic flow"> </div>
+                                        {{-- <table class="table table-striped">
                                           <thead>
                                             <tr>
                                               <th scope="col">#</th>
@@ -403,7 +410,7 @@
                                             </tr>
                                             
                                           </tbody>
-                                        </table>
+                                        </table> --}}
                                         <h4>Entry Requirements</h4>
                                         <br>
                                         <strong><p><i class="bi bi-mortarboard-fill"></i> Master of Science (M.Sc.) Environmental Management and Control</p></strong>
@@ -482,6 +489,77 @@
                                   </div>
                                 </div>
                                 <!-- University of Nigeria end -->
+                                <!-- FUT start -->
+                                <div class="col-12 pb-4" id='selection'>
+                                  <div class="card rounded-3" data-wow-delay="0.2s" style="visibility: visible;">
+                                    <div class="card-header" id="headingFut">
+                                      <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseFut" aria-expanded="true" aria-controls="collapseFut">Federal University Of Technology Minna - Nigeria<span class="lni-chevron-up"><i class="bi bi-arrow-bar-down"></i></span></h6>
+                                    </div>
+                                    <div class="collapse" id="collapseFut" aria-labelledby="headingFut" data-parent="#faqAccordion">
+                                      <div class="card-body">
+                                        <div class="pb-4" style="text-align: center; vertical-align: middle; border: 0;"><img src="main/assets/img/fut.png" class="img-fluid" alt="masters academic flow"> </div>
+                                        {{-- <table class="table table-striped">
+                                          <thead>
+                                            <tr>
+                                              <th scope="col">#</th>
+                                              <th scope="col">Programme</th>
+                                              <th scope="col">Programme Name</th>
+                                              <th scope="col">Department</th>
+                                              <th scope="col">Faculty</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <th scope="row">1</th>
+                                              <td>Doctorate</td>
+                                              <td>PhD in Climate Change and Human Habitat</td>
+                                              <td>West African Science Service Centre on Climate Change and Adapted Land Use (WASCAL)</td>
+                                              <td>West African Science Service Centre on Climate Change and Adapted Land Use (WASCAL)</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">2</th>
+                                              <td>Master</td>
+                                              <td>MEng. Agriculture and Bioresources Engineering/td>
+                                              <td>Department of Agriculture and Bioresources Engineering</td>
+                                              <td>School of Infrastructure, Process Engineering and Technology</td>
+                                            </tr>
+                                          </tbody>
+                                        </table> --}}
+                                        <h4>Entry Requirements</h4>
+                                        <br>
+                                        <strong><p><i class="bi bi-mortarboard-fill"></i> PhD in Climate Change and Human Habitat</p></strong>
+
+                                        <div class="features section">
+                                          <div class=" tab-pane fade active show" id="features-tab-1" role="tabpanel">
+                                            <ul>
+                                              <li style="text-align:justify;"><i class="bi bi-check2-all"></i> <span>Five O’ Level credit passes in Mathematics, English, Physics and any two of the following relevant subjects (Geography, Agricultural Science/Biology, Economics) or its equivalent in Francophone countries (i.e. hold preferably a  Baccalaureat C or D).</span></li>
+                                              <li style="text-align:justify;"><i class="bi bi-check2-all"></i> <span>First Degree (B.Tech. or B.Sc.) with a minimum of 2nd Class Upper Degree (or Assez Bien (B) for the Francophone applicants) from a recognised academic institutions in any discipline related to the environment (most especially geography, agriculture, land resources, water resources, urban planning and climate science).</span></li>
+                                              <li style="text-align:justify;"><i class="bi bi-check2-all"></i> <span>Master’s Degree graduates from any recognised University, but MUST be citizens from countries participating in WASCAL, in any discipline related to the environment (most especially geography, agriculture, land resources, water resources, urban planning and climate science).</span></li>
+                                              <li style="text-align:justify;"><i class="bi bi-check2-all"></i> <span>Such Master degree must be of an average performance of “B” grade or weighted average of 60% or a minimum Cumulative Grade Point Average of 3.50.</span></li>
+                                              <li style="text-align:justify;"><i class="bi bi-check2-all"></i> <span>Applicants MUST possess basic knowledge and skills of GIS and remote sensing   applications, with a minimum of B-grade in the transcript of either the Bachelor’s or Master’s degree.</span></li>
+                                              <li style="text-align:justify;"><i class="bi bi-check2-all"></i> <span>Applicants should ensure that academic transcripts from items (ii) and (iii) and research interest/motivation are received before the selection process.</span></li>
+                                              <li style="text-align:justify;"><i class="bi bi-check2-all"></i> <span>For Nigerian applicants, NYSC Certificate/Exemption is required.</span></li>
+                                              <li style="text-align:justify;"><i class="bi bi-check2-all"></i> <span>Candidates must provide 3 referees, one of whom must be his/her Master’s thesis Supervisor. If it is a WASCAL Alumnus, the Director’s recommendation will be required as top priority.</span></li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                        <strong><p><i class="bi bi-mortarboard-fill"></i> MEng. Agriculture and Bioresources Engineering</p></strong>
+                                        <div class="features section">
+                                          <div class=" tab-pane fade active show" id="features-tab-1" role="tabpanel">
+                                            <ul>
+                                              <li><i class="bi bi-check2-all"></i> <span> A minimum of Second Class Lower or PGD with a minimum of Upper Credit from FUT Minna or any recognized institution for candidate applying for Master’s Degree Programme.</span></li>
+                                              <li><i class="bi bi-check2-all"></i> <span> At least five ‘O’ Level Credits to include English Language, Mathematics, Physics, Chemistry and any one of the following: Biology/Agricultural Science, Technical Drawing, Geography or Economics. </span></li>
+                                              <li><i class="bi bi-check2-all"></i> <span> MEng (Full-time only) in the following areas of specialization: 
+                                                <br> i) Farm Power and Machinery.    <br> ii) Agricultural Crop Processing and Storage <br> iii) Soil and Water Engineering</span></li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- FUT end -->
                                 <!-- University of Zimbabwe start -->
                                 <div class="col-12 pb-4">
                                   <div class="card rounded-3" data-wow-delay="0.2s" style="visibility: visible;">

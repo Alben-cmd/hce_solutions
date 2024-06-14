@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\OpportunityController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\Admin\DashboardController;
 
 /*
@@ -36,6 +37,7 @@ Route::get('/opportunities', [OpportunityController::class, 'opportunities'])->n
 Route::get('/scholarship', [OpportunityController::class, 'scholarship'])->name('scholarship');
 //opportunity ends 
 Route::get('/contacts', [FrontController::class, 'contact'])->name('contact');
+Route::post('/contacts', [FrontController::class, 'contactmail'])->name('contact.store');
 Route::get('/faq', [FrontController::class, 'faq'])->name('faq');
 
 

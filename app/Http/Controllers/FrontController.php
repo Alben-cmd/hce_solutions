@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Contactus;
 
 class FrontController extends Controller
 {
@@ -36,11 +38,6 @@ class FrontController extends Controller
         return view('front.news.news');
     }
 
-    public function contact()
-    {
-        return view('front.contact');
-    }
-
     public function faq()
     {
         return view('front.faq');
@@ -50,4 +47,25 @@ class FrontController extends Controller
     {
         return view('admin.dashboard');
     }
+
+    public function contact()
+    {
+        return view('front.contact');
+    }
+
+    public function contactmail(Request $request)
+    {
+        $data = request()->validate([
+            'name' => 'required',
+            'subject' => 'required',
+            'email' => 'required|email',
+            'message' => 'required'
+        ]);
+
+        $admin_mail = 'alenoghenaben@gmail.com';
+        Mail::to($admin_mail)->send(new contactus($data));
+        return redirect()->back()
+                         ->with(['success' => 'Thank you for contacting us. We will get back to you shortly.']);
+    }
+
 }

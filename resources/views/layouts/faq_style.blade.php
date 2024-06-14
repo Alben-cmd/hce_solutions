@@ -7,7 +7,7 @@
     .faq_area {
         position: relative;
         z-index: 1;
-        background-color: #96ed7b;
+        background-color: #b4eda3;
     }
     .faq-accordian {
         position: relative;
