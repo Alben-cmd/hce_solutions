@@ -35,7 +35,7 @@
         
             <p>Main Campus, Gidan-Kwano, Bida Road, </p>
             <p>Minna, Niger State, Nigeria</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+234 8033945009</span></p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+49 163 9150996</span></p>
             <p><strong>Email:</strong> <span>info@hcesolutions.org</span></p>
           </div>
         </div>
@@ -50,6 +50,8 @@
           </div>
         </div>
       </div>
+      <h6>Privacy Statment</h6>
+      <p><em>click <a href="{{ asset('main/assets/img/privacy_statment.pdf') }}">here</a> to view the privacy statement </em></p>
       <h6>Disclaimer</h6>
       <p><em>"Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them." </em></p>
     </div>

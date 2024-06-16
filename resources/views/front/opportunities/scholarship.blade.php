@@ -8,7 +8,7 @@
     @include('layouts.faq_style')
     <!-- Page Title -->
     <div class="page-title" data-aos="fade" style="background-image: url({{asset('main/assets/img/scholarship-bg.jpg')}});">
-      <div class="container position-relative">
+      <div class="container position-relative px-5">
         <h1>Scholarship</h1>
         <nav class="breadcrumbs">
           <ol>
@@ -16,6 +16,8 @@
             <li class="current">Scholarship</li>
           </ol>
         </nav>
+        <br>
+        <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now open! 🎓 Applications are accepted from June 15, 2024, to July 27, 2024. 📅 Results will be announced on September 3, 2024. Don't miss this opportunity!.</marquee>
       </div>
     </div><!-- End Page Title -->
 
@@ -32,19 +34,11 @@
                 <br>
                 <p><strong><em>Apply, now by sending your CV and a 3 page proposal documents to <a href="mailto:hce.solutions@futminna.edu.ng">hce.solutions@futminna.edu.ng</a></em></strong></p>
               </div><!-- End Section Title -->
-              <div class="single_counter counter_1 d-flex justify-content-center align-items-center wow fadeInUpBig"
-                                data-wow-duration="1.3s" data-wow-delay="0.2s">
-                                <div class="counter_wrapper">
-                                    <span class="counter">14</span>
-                                    <p>Executed Projects</p>
-                                </div>
-                            </div>
-        
               <div class="container">
         
                 <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
         
-                  <ul class="portfolio-filters isotope-filters" style="position: sticky; top: 70px; z-index: 1000;" data-aos="fade-up" data-aos-delay="100">
+                  <ul class="portfolio-filters isotope-filters" style="position: sticky; top: 80px; z-index: 1000;" data-aos="fade-up" data-aos-delay="100">
                     
                     <li class="filter-active"><span class="badge rounded-pill bg-light text-dark" disabled aria-disabled="true"></span</li>
                       <li><a href="#general"><span class="badge rounded-pill bg-success">General Information</span></a></li>
@@ -150,7 +144,6 @@
                                   <ul>
                                       <li><i class="bi bi-check2-all"></i> <span>Contribute to your research expenses depending on the available budget </span></li>
                                       <li><i class="bi bi-check2-all"></i> <span>Scholarship holders with disabilities can receive additional support. </span></li>
-                                      <li><i class="bi bi-check2-all"></i> <span>University of Zimbabwe (UoZ).</span></li>
                                   </ul>
                               </div>
                             </div>
@@ -299,6 +292,34 @@
                                     <div class="collapse" id="collapseSeven" aria-labelledby="headingSeven" data-parent="#faqAccordion">
                                       <div class="card-body">
                                         <div class="pb-4" style="text-align: center; vertical-align: middle; border: 0;"><img src="main/assets/img/uganda.png" class="img-fluid" alt="masters academic flow"> </div>
+                                        {{-- <table class="table table-striped">
+                                          <thead>
+                                            <tr>
+                                              <th scope="col">#</th>
+                                              <th scope="col">Programme</th>
+                                              <th scope="col">Programme Name</th>
+                                              <th scope="col">Department</th>
+                                              <th scope="col">Faculty</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <th scope="row">1</th>
+                                              <td>Master</td>
+                                              <td>MSc. in Agroecology</td>
+                                              <td>Department of Agroecology</td>
+                                              <td>Faculty of Agriculture</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">2</th>
+                                              <td>Doctorate</td>
+                                              <td>PhD in Agroecology and Food Systems</td>
+                                              <td>Department of Agroecology</td>
+                                              <td>Faculty of Agriculture</td>
+                                            </tr>
+                                            
+                                          </tbody>
+                                        </table> --}}
                                         <h4>Admission Requirements</h4>
                                         <br>
                                         <strong><p><i class="bi bi-mortarboard-fill"></i> PhD in Agroecology and Food Systems</p></strong>

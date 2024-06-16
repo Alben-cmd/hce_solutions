@@ -68,4 +68,5 @@
       </nav>
 
     </div>
+    {!! RecaptchaV3::initJs() !!}
   </header>

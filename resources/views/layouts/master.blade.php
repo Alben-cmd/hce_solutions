@@ -50,7 +50,8 @@
 
   <!-- Preloader -->
   <div id="preloader"></div>
-
+  <!-- reCAPTCHA -->
+  <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
   <!-- Vendor JS Files -->
   <script src="{{asset('main/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
   <script src="{{asset('main/assets/vendor/php-email-form/validate.js')}}"></script>

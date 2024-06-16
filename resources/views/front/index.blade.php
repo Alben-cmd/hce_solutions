@@ -19,7 +19,12 @@
               <p class="px-3">Selected for the Intra-Africa Academic Mobility Program, an initiative in Africa focusing on clean energy to promote energy independence and environmental well-being through collaboration and innovation.
               </p>
               </div>
+              <br>
               <!-- <a href="#get-started" class="btn-get-started">Get Started</a> -->
+              <!-- scholarship alert start-->
+                <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now open! 🎓 Applications are accepted from June 15, 2024, to July 27, 2024. 📅 Results will be announced on September 3, 2024. Don't miss this opportunity!. For more information, visit our <em><a href="{{ route('scholarship') }} " style="color: rgb(255, 0, 0); text-decoration: underline;">Scholarship Page.
+                </em></a></marquee>
+              <!-- Scholarship alert ends -->
             </div>
           </div>
         </div>

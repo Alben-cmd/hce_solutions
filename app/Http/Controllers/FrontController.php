@@ -59,7 +59,8 @@ class FrontController extends Controller
             'name' => 'required',
             'subject' => 'required',
             'email' => 'required|email',
-            'message' => 'required'
+            'message' => 'required',
+            'g-recaptcha-response' => 'required|recaptchav3:register,0.5'
         ]);
 
         $admin_mail = 'alenoghenaben@gmail.com';

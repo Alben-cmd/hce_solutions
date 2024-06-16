@@ -37,7 +37,7 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-telephone"></i>
               <h3>Call Us</h3>
-              <p>+234 8033945009</p>
+              <p>+49 163 9150996</p>
             </div>
           </div><!-- End Info Item -->
 
@@ -100,15 +100,8 @@
               </div>
             </form>
           </div><!-- End Contact Form -->
-
         </div>
-
       </div>
-
     </section><!-- /Contact Section -->
-
   </main>
-
-
-
 @endsection
