@@ -22,7 +22,9 @@
               <br>
               <!-- <a href="#get-started" class="btn-get-started">Get Started</a> -->
               <!-- scholarship alert start-->
-                <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now open! 🎓 Applications are accepted from June 15, 2024, to July 27, 2024. 📅 Results will be announced on September 3, 2024. Don't miss this opportunity!. For more information, visit our <em><a href="{{ route('scholarship') }} " style="color: rgb(255, 0, 0); text-decoration: underline;">Scholarship Page.
+                <!-- <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now open! 🎓 Applications are accepted from June 15, 2024, to July 27, 2024. 📅 Results will be announced on September 3, 2024. Don't miss this opportunity!. For more information, visit our <em><a href="{{ route('scholarship') }} " style="color: rgb(255, 0, 0); text-decoration: underline;">Scholarship Page.
+                </em></a></marquee> -->
+                <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now Closed! 📅 Results will be announced on September 3, 2024. 🎓 New Oportunities will be anounced in due course. For more information, visit our <em><a href="{{ route('scholarship') }} " style="color: rgb(255, 0, 0); text-decoration: underline;">Scholarship Page.
                 </em></a></marquee>
               <!-- Scholarship alert ends -->
             </div>

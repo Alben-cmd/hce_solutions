@@ -17,7 +17,7 @@
           </ol>
         </nav>
         <br>
-        <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now open! 🎓 Applications are accepted from June 15, 2024, to July 27, 2024. 📅 Results will be announced on September 3, 2024. Don't miss this opportunity!.</marquee>
+        <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now Closed! 📅 Results will be announced on September 3, 2024. 🎓 New Oportunities will be anounced in due course.</marquee>
       </div>
     </div><!-- End Page Title -->
 
@@ -32,8 +32,20 @@
                 <br>
                 <p>A consortium of six African universities awarded funding from the European Education and Culture Executive Agency (EACEA) for an academic mobility scheme focused on Homegrown Clean Energy Solutions, targeting postgraduate students and staff for capacity building.</p>
                 <br>
-                <p><strong><em>Apply, now by sending your CV and a 3 page proposal documents to <a href="mailto:hce.solutions@futminna.edu.ng">hce.solutions@futminna.edu.ng</a></em></strong></p>
+
+                <!-- <a href="https://bit.ly/HCE_MScApply"> <span class="badge bg-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Masters Apllication">Click To Apply for Masters</span></a>
+                <br>
+                <br>
+
+                <a href="https://bit.ly/HCE_PhDApply"> <span class="badge bg-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="PhD Application">Click To Apply for PhD </span></a>
+                <br>
+                <br> -->
+                <p class="pb-3">Applications are now <strong>Closed</strong></p>
+        
+                <p class="pb-3">Results will be announced on<strong> 3rd September 2024.</strong> </p>
+                <p>New Oportunities will be anounced in due course</p>
               </div><!-- End Section Title -->
+              
               <div class="container">
         
                 <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
@@ -154,6 +166,21 @@
                           <h6>Women and persons living with disabilities are strongly encouraged to apply.</h6>
                           <hr>
 
+                          <h6>Application Documents</h6>
+                          <div class="features section">
+        
+                            <div class=" tab-pane fade active show" id="features-tab-1" role="tabpanel">
+                                <ul class="px-4">
+                                    <li><i class="bi bi-check2-all"></i> <span>Filled Application Form </span></li>
+                                    <li><i class="bi bi-check2-all"></i> <span>CV </span></li>
+                                    <li><i class="bi bi-check2-all"></i> <span>A three-page proposal document</span></li>
+                                </ul>
+                            </div>
+                            <hr>
+                          </div>
+                          
+
+
                     </div><!-- End Portfolio Item -->
                     
         
@@ -173,6 +200,37 @@
                                     <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#faqAccordion">
                                       <div class="card-body">
                                         <div class="pb-4" style="text-align: center; vertical-align: middle; border: 0;"><img src="main/assets/img/makerere.png" class="img-fluid" alt="masters academic flow"> </div>
+                                        <!-- <table class="table table-striped">
+                                          <thead>
+                                            <tr>
+                                              <th scope="col">#</th>
+                                              <th scope="col">Programme</th>
+                                              <th scope="col">Programme Name</th>
+                                              <th scope="col">Department</th>
+                                              <th scope="col">School</th>
+                                              <td scope="col">College</td>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <th scope="row">1</th>
+                                              <td>Master</td>
+                                              <td>MSc Forestry and Biodiversity management</td>
+                                              <td>Forestry Biodiversity and Tourism (FBT)</td>
+                                              <td>School of Forestry, Environmental and Geographical Sciences (SFEGs)</td>
+                                              <td>College of Agricultural and Environmental Sciences (CAES)</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">2</th>
+                                              <td>Master</td>
+                                              <td>MSc in Renewable Energy</td>
+                                              <td>Mechanical Engineering</td>
+                                              <td>School of Engineering</td>
+                                              <td>College of Engineering, Design, Art and Technology (CEDAT)</td>
+                                            </tr>
+                                            
+                                          </tbody>
+                                        </table> -->
                                         <h4>Entry Requirements</h4>
                                         <br>
                                         <strong><p><i class="bi bi-mortarboard-fill"></i> Master’s Degree Programmes offered at Makerere University</p>
@@ -519,7 +577,7 @@
                                     <div class="collapse" id="collapseFut" aria-labelledby="headingFut" data-parent="#faqAccordion">
                                       <div class="card-body">
                                         <div class="pb-4" style="text-align: center; vertical-align: middle; border: 0;"><img src="main/assets/img/fut.png" class="img-fluid" alt="masters academic flow"> </div>
-                                        {{-- <table class="table table-striped">
+                                        <!-- <table class="table table-striped">
                                           <thead>
                                             <tr>
                                               <th scope="col">#</th>
@@ -545,7 +603,7 @@
                                               <td>School of Infrastructure, Process Engineering and Technology</td>
                                             </tr>
                                           </tbody>
-                                        </table> --}}
+                                        </table> -->
                                         <h4>Entry Requirements</h4>
                                         <br>
                                         <strong><p><i class="bi bi-mortarboard-fill"></i> PhD in Climate Change and Human Habitat</p></strong>
@@ -698,7 +756,7 @@
                     <hr>
                     <div class="portfolio-item isotope-item filter-repairs" id="selection">
                       <h5><strong>Application and Selection Process </strong></h5>
-                      <p style="text-align:justify;">The program guarantees an impartial and transparent selection and admission process based on merit, and equal opportunities as well as maintaining standards. Applications will be subjected to an external review process to avoid bias and ensure that the based candidates are selected. The following are guidelines for a successful application:</p>
+                      <p style="text-align:justify;">The program guarantees an impartial and transparent selection and admission process based on merit, and equal opportunities as well as maintaining standards. Applications will be subjected to an external review process to avoid bias and ensure that the best candidates are selected. The following are guidelines for a successful application:</p>
                       <div class="features section">
                         <div class=" tab-pane fade active show" id="features-tab-1" role="tabpanel">
                           <ul>
@@ -712,7 +770,12 @@
                           </ul>
                         </div>
                       </div>  
-                      <p>To apply, send your CV and a 3 page proposal documents to <a href="mailto:hce.solutions@futminna.edu.ng">hce.solutions@futminna.edu.ng</a></p>
+                      <!-- <div class="container section-title"> 
+                        <a href="https://bit.ly/HCE_MScApply"> <span class="badge bg-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Masters Apllication">To Apply for Masters Click Me</span></a>
+                        <br><br>
+
+                        <a href="https://bit.ly/HCE_PhDApply"> <span class="badge bg-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="PhD Application">To Apply for PhD Click Me</span></a>
+                      </div> -->
 
                     </div><!-- End Portfolio Item -->
         
