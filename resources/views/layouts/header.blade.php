@@ -21,6 +21,7 @@
               <li><a href="{{ route('outcomes') }} ">Expected Outcomes</a></li>
               <li><a href="{{ route('c_development') }} ">Capacity Development</a></li>
               <li><a href="{{ route('partnership') }} ">Partnerships</a></li>
+              <li><a href="https://www.eacea.ec.europa.eu/grants/2021-2027/intra-africa-academic-mobility-scheme_en">Intra Africa Mobility</a></li>
               
               </li>
             </ul>
@@ -68,5 +69,5 @@
       </nav>
 
     </div>
-    {!! RecaptchaV3::initJs() !!}
+    
   </header>

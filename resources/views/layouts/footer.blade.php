@@ -26,6 +26,7 @@
             <li><a href="{{ route('news') }} ">News</a></li>
             <li><a href="{{ route('contact') }} ">Contact HCE</a></li>
             <li><a href="{{ route('faq') }} ">FAQ</a></li>
+            <li><a href="https://www.eacea.ec.europa.eu/grants/2021-2027/intra-africa-academic-mobility-scheme_en">Intra Africa Mobility</a></li>
           </ul>
         </div>
 
@@ -52,8 +53,9 @@
       </div>
       <h6>Privacy Statment</h6>
       <p><em>click <a href="{{ asset('main/assets/img/privacy_statment.pdf') }}">here</a> to view the privacy statement </em></p>
-      <h6>Disclaimer</h6>
+      <h6>Disclaimers</h6>
       <p><em>"Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them." </em></p>
+      <p><em>"Please be cautious when receiving any publicity inviting you to apply for an Intra-Africa scholarship or a message to pay a fee to be selected as a scholarship holder. We have been informed of numerous attempted scams. Before giving out any personal data, please always verify that the information comes from a trustworthy source. Please also note that candidates do not have to pay any fees to benefit from an Intra-Africa scholarship."</em></p>
     </div>
     
 

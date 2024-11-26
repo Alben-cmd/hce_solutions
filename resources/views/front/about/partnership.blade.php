@@ -76,7 +76,7 @@
                           <div class="portfolio-info">
                             <!-- <h4>App 1</h4> -->
                             <p>University of Abomey-Calavi (UAC), Benin</p>
-                            <a href="#" title="visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            <a href="https://www.uac.bj" title="visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
                           </div>
                         </div>
                       </div><!-- End Portfolio Item -->
@@ -98,7 +98,7 @@
                           <div class="portfolio-info">
                             <!-- <h4>Product 1</h4> -->
                             <p>Makerere University (MU), Uganda</p>
-                            <a href="#" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            <a href="https://www.mak.ac.ug" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
                           </div>
                         </div>
                       </div><!-- End Portfolio Item -->
@@ -109,7 +109,7 @@
                           <div class="portfolio-info">
                             <!-- <h4>Branding 1</h4> -->
                             <p>Uganda Martyrs University (UMU), Uganda</p>
-                            <a href="#" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            <a href="https://www.umu.ac.ug" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
                           </div>
                         </div>
                       </div><!-- End Portfolio Item -->
@@ -120,7 +120,7 @@
                           <div class="portfolio-info">
                             <!-- <h4>Books 1</h4> -->
                             <p>University of Nigeria, Nsukka (UNN), Nigeria</p>
-                            <a href="#" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            <a href="https://www.unn.edu.ng" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
                           </div>
                         </div>
                       </div><!-- End Portfolio Item -->
@@ -133,7 +133,7 @@
                           <div class="portfolio-info">
                             <!-- <h4>App 2</h4> -->
                             <p>University of Zimbabwe (UZ), Zimbabwe</p>
-                            <a href="#" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            <a href="https://www.uz.ac.zw" title="Visit" class="details-link"><i class="bi bi-link-45deg"></i></a>
                           </div>
                         </div>
                       </div><!-- End Portfolio Item -->

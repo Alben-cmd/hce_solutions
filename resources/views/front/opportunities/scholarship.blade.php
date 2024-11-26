@@ -17,7 +17,7 @@
           </ol>
         </nav>
         <br>
-        <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now Closed! 📅 Results will be announced on September 3, 2024. 🎓 New Oportunities will be anounced in due course.</marquee>
+        <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now Closed! 📅 Results have been announced. Visit the news section to see results. 🎓 New Oportunities will be anounced in due course.</marquee>
       </div>
     </div><!-- End Page Title -->
 
@@ -134,7 +134,7 @@
                             </div>
                           </div>
                         </div>
-                        <h6 class="pt-3">Benefits</h5>
+                        <h6 class="pt-3">Benefits</h6>
                         <p>The program will provide the tuition fee and pay a monthly subsistence allowance ( Masters Students @ €890 per month, Ph.D students @ €1,230 per month, trainee @ €1,230 per month, and staff @ €2,370 per month). The scholarship will: </p>
                         <div class="row">
                           <div class="col-6">
@@ -161,6 +161,10 @@
                             </div>
                           </div>
                         </div>
+                        <h6>Click to download <a href="{{ asset('main/assets/hce_scholarship_agreement.pdf') }} "><span class="badge rounded-pill bg-info">Scholarship Agreement</span></a></h6>
+                        <br>
+                        <h6>Click to download <a href="{{ asset('main/assets/hce_learning agreement_.pdf') }}"><span class="badge rounded-pill bg-info"> Learning Agreement/Research Plans </span></a></h6>
+                        <br>
                         
                       
                           <h6>Women and persons living with disabilities are strongly encouraged to apply.</h6>
@@ -186,6 +190,8 @@
         
                     <div class="portfolio-item isotope-item filter-construction">
                       <h5 class="pt-2 pb-2"><strong>Requirements for the Different Universities:</strong></h5>
+                      <p><em> Click on desired institution to see Programs, Eligibility, Entry Requirements and contacts</em>
+                      </p>
                       <div class="faq_area section_padding_13 pt-3" id="faq">
                         <div class="container">
                           <div class="">
@@ -232,7 +238,7 @@
                                           </tbody>
                                         </table> -->
                                         <h4>Entry Requirements</h4>
-                                        <br>
+                                        <p><em> The institution's language is English</em></p>
                                         <strong><p><i class="bi bi-mortarboard-fill"></i> Master’s Degree Programmes offered at Makerere University</p>
                                         <p>General Requirements</p></strong>
                                         
@@ -267,6 +273,12 @@
                                               </ul>
                                             </div>
                                           </div>
+                                          <h4>Contacts</h4>
+                                          <em>
+                                            <p><i class="bi bi-file-earmark-person-fill"></i> Grace Nakabonge
+                                            <br><strong><i class="bi bi-envelope-open-fill"></i></i></strong> grace.nakabonge@mak.ac.ug
+                                            <br><strong><i class="bi bi-megaphone-fill"></i></strong> +256 782356607</p>
+                                          </em>
                                       </div>
                                     </div>
                                   </div>
@@ -310,7 +322,7 @@
                                         </table> -->
                                         <div class="pb-4" style="text-align: center; vertical-align: middle; border: 0;"><img src="main/assets/img/abomey.png" class="img-fluid" alt="masters academic flow"> </div>
                                         <h4>Admission Requirements</h4>
-                                        <br>
+                                        <p><em> The institution's language is French</em></p>
                                         <strong><p><i class="bi bi-mortarboard-fill"></i> Master of Science (M.Sc.) in Energy Efficiency and Renewable Energy (duration: 1 year)</p></strong>
                                         
                                         <div class="features section">
@@ -336,6 +348,12 @@
                                             </ul>
                                           </div>
                                         </div>
+                                        <h4>Contacts</h4>
+                                          <em>
+                                            <p><i class="bi bi-file-earmark-person-fill"></i> Michel Dossou
+                                            <br><strong><i class="bi bi-envelope-open-fill"></i></i></strong>  michel.dossou@uac.bj
+                                            <br><strong><i class="bi bi-megaphone-fill"></i></strong> +229 97 54 27 44</p>
+                                          </em>
                                       </div>
                                     </div>
                                   </div>
@@ -379,7 +397,7 @@
                                           </tbody>
                                         </table> --}}
                                         <h4>Admission Requirements</h4>
-                                        <br>
+                                        <p><em> The institution's language is English</em></p>
                                         <strong><p><i class="bi bi-mortarboard-fill"></i> PhD in Agroecology and Food Systems</p></strong>
                                         
                                         <div class="features section">
@@ -416,7 +434,13 @@
                                             </ul>
                                           </div>
                                         </div>
-                                      </div>
+                                        <h4>Contacts</h4>
+                                          <em>
+                                            <p><i class="bi bi-file-earmark-person-fill"></i> Dr Robinah S. Nakabo
+                                            <br><strong><i class="bi bi-envelope-open-fill"></i></i></strong> rnakabo@umu.ac.ug
+                                            <br><strong><i class="bi bi-megaphone-fill"></i></strong> +256 776 802981</p>
+                                          </em>
+                                      </div>                                      
                                     </div>
                                   </div>
                                 </div>
@@ -491,7 +515,7 @@
                                           </tbody>
                                         </table> --}}
                                         <h4>Entry Requirements</h4>
-                                        <br>
+                                        <p><em> The institution's language is English</em></p>
                                         <strong><p><i class="bi bi-mortarboard-fill"></i> Master of Science (M.Sc.) Environmental Management and Control</p></strong>
                                         
                                         <div class="features section">
@@ -563,6 +587,12 @@
                                           </div>
                                         </div>
                                         </div>
+                                        <h4>Contacts</h4>
+                                          <em>                                           
+                                            <p><i class="bi bi-file-earmark-person-fill"></i> Cynthia Nwobodo
+                                            <br><strong><i class="bi bi-envelope-open-fill"></i></i></strong> cynthia.nwobodo@unn.edu.ng
+                                            <br><strong><i class="bi bi-megaphone-fill"></i></strong> +234 803 946 2574</p>
+                                          </em>
                                       </div>
                                     </div>
                                   </div>
@@ -605,7 +635,7 @@
                                           </tbody>
                                         </table> -->
                                         <h4>Entry Requirements</h4>
-                                        <br>
+                                        <p><em> The institution's language is English</em></p>
                                         <strong><p><i class="bi bi-mortarboard-fill"></i> PhD in Climate Change and Human Habitat</p></strong>
 
                                         <div class="features section">
@@ -633,7 +663,14 @@
                                             </ul>
                                           </div>
                                         </div>
+                                        <h4>Contacts</h4>
+                                          <em>
+                                            <p><i class="bi bi-file-earmark-person-fill"></i> Caroline Alenoghena
+                                            <br><strong><i class="bi bi-envelope-open-fill"></i></i></strong> carol@futminna.edu.ng
+                                            <br><strong><i class="bi bi-megaphone-fill"></i></strong> +234 8035015984</p>
+                                          </em>
                                         </div>
+                                        
                                       </div>
                                     </div>
                                   </div>
@@ -693,7 +730,7 @@
                                           </tbody>
                                         </table> -->
                                         <h4>Entry Requirements</h4>
-                                        <br>
+                                        <p><em> The institution's language is English</em></p>
                                         <strong><p><i class="bi bi-mortarboard-fill"></i> Masters in Climate Science and Climate System Modelling</p></strong>
                                         
                                         <div class="features section">
@@ -727,6 +764,12 @@
                                             </ul>
                                           </div>
                                         </div>
+                                        <h4>Contacts</h4>
+                                          <em>
+                                            <p><i class="bi bi-file-earmark-person-fill"></i> Dr Blessing Magonziwa
+                                            <br><strong><i class="bi bi-envelope-open-fill"></i></i></strong> blessing.magonziwa21@alumni.colostate.edu.ng
+                                            <br><strong><i class="bi bi-megaphone-fill"></i></strong> +263 775990146</p>
+                                          </em>
                                       </div>
                                     </div>
                                   </div>
