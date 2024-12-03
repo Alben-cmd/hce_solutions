@@ -35,6 +35,7 @@ Route::get('/workshops_training', [ProjectController::class, 'workshops_training
 //news
 Route::get('/news', [NewsController::class, 'index'])->name('news');
 Route::get('/scholarship_awardees', [NewsController::class, 'scholarshipAwardees'])->name('scholarshipAwardees');
+Route::get('/orientation', [NewsController::class, 'orientation'])->name('orientation');
 //opportunities start
 Route::get('/opportunities', [OpportunityController::class, 'opportunities'])->name('opportunities');
 Route::get('/scholarship', [OpportunityController::class, 'scholarship'])->name('scholarship');

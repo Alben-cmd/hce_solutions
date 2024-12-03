@@ -34,10 +34,9 @@
                       <div class="container">
           
                         <article class="article">
+                          <h2 class="title">HCE Intra-Africa Mobility Masters and PhD Scholarship Awardees</h2>
           
                           <div class="content">
-
-                            <h3>HCE Intra-Africa Mobility Masters and PhD Scholarship Awardees</h3>
                             <p style="text-align:justify;">
                                 We are thrilled to highlight the exceptional recipients of the prestigious HCE Intra-Africa Mobility masters and PhD scholarships. These highly competitive programs provide life-changing educational opportunities for the most promising students across the African continent.
                             </p>

@@ -17,7 +17,7 @@
           </ol>
         </nav>
         <br>
-        <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now Closed! 📅 Results have been announced. Visit the news section to see results. 🎓 New Oportunities will be anounced in due course.</marquee>
+        <!-- <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now Closed! 📅 Results have been announced. Visit the news section to see results. 🎓 New Oportunities will be anounced in due course.</marquee> -->
       </div>
     </div><!-- End Page Title -->
 

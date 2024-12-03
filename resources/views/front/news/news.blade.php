@@ -96,6 +96,43 @@
           </div>
           <!-- End second post -->
 
+          <!-- 3rd post -->
+          <div class="col-lg-4"  style="padding-top: 10px">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="{{asset('main/assets/img/blog/orientation.jpeg')}} " class="img-fluid" alt="">
+                <span class="post-date">December 10th, 2024</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Upcoming Orientation Programme: Promoting Inclusive Homegrown Clean...</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-geo-alt"></i> <span class="ps-2">virtual</span>
+                    <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-clock"></i> <span class="ps-2">9AM</span>
+                  </div>
+                  </div>
+                  <!-- <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-hash"></i> <span class="ps-2">RUFtriennial24</span>
+                  </div> -->
+                </div>
+
+                <p style="text-align:justify;">
+                  We are pleased to announce the upcoming virtual Postgraduate Students Orientation Programme. This orientation marks the beginning of a comprehensive research program focused on promoting inclusive homegrown clean energy solutions for climate change adaptation and mitigation in Africa.
+                </p>
+                <hr>
+                <a href="{{ route('orientation') }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+          <!-- End 3rd post -->
+
           
         </div>
       </div>

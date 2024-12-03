@@ -15,4 +15,9 @@ class NewsController extends Controller
     {
         return view('front.news.scholarship_awardees');
     }
+
+    public function orientation()
+    {
+        return view ('front.news.orientation');
+    }
 }
