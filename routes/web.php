@@ -6,6 +6,7 @@ use App\Http\Controllers\NewsController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\OpportunityController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AchievementController;
 use App\Http\Controllers\Admin\DashboardController;
 
 /*
@@ -28,10 +29,16 @@ Route::get('/partnership', [FrontController::class, 'partnership'])->name('partn
 //about ends
 //projects start
 Route::get('/activities', [ProjectController::class, 'activities'])->name('activities');
-Route::get('/achievements', [ProjectController::class, 'achievements'])->name('achievements');
 Route::get('/impacts', [ProjectController::class, 'impacts'])->name('impacts');
 Route::get('/workshops_training', [ProjectController::class, 'workshops_training'])->name('workshops_training');
 //projects ends
+
+//Achievements
+Route::get('/achievements', [AchievementController::class, 'index'])->name('achievements');
+Route::get('/achievements/brussels', [AchievementController::class, 'brussels'])->name('brussels');
+Route::get('/achievements/futminna', [AchievementController::class, 'futminna'])->name('futminna');
+Route::get('/achievements/abomey_calavi', [AchievementController::class, 'abomey_calavi'])->name('abomey_calavi');
+
 //news
 Route::get('/news', [NewsController::class, 'index'])->name('news');
 Route::get('/scholarship_awardees', [NewsController::class, 'scholarshipAwardees'])->name('scholarshipAwardees');

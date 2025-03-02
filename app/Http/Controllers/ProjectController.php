@@ -11,11 +11,6 @@ class ProjectController extends Controller
         return view('front.projects.activities');
     }
 
-    public function achievements()
-    {
-        return view('front.projects.achievements');
-    }
-
     public function impacts()
     {
         return view('front.projects.impacts');

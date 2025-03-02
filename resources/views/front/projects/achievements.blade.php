@@ -21,69 +21,73 @@
 
     <!-- Alt Services Section -->
             <!-- Section Title -->
-            <section id="projects" class="projects section">
+            
 
-              <!-- Section Title -->
+            <section id="blog-posts" class="blog-posts section">
+
               <div class="container section-title" data-aos="fade-up" style="padding-top: 20px">
                 <br>
               <h2>Achievements</h2>
               <p>Here are images showcasing our achievements and the places we've visited to promote clean energy solutions and climate action in Africa.</p>
             </div><!-- End Section Title -->
+
               <div class="container">
+                <div class="row gy-4">
+                  <!-- First post -->
+                  <div class="col-lg-4"  style="padding-top: 10px">
+                    <article class="position-relative h-100">
         
-                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-        
-                  <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-        
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-                      <div class="portfolio-content h-100">
-                        <img src="{{asset('main/assets/img/achievement/brussels_01.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                          <h4>2024</h4>
-                          <p>Meeting at Brussels March 2024</p>
-                          <a href="{{asset('main/assets/img/achievement/brussels_01.jpg')}}" title="Brussels 2024" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                        </div>
+                      <div class="post-img position-relative overflow-hidden">
+                        <img src="{{asset('main/assets/img/achievement/brussels_01.jpg')}} " class="img-fluid" alt="">
                       </div>
-                    </div><!-- End Portfolio Item -->
         
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-                      <div class="portfolio-content h-100">
-                        <img src="{{asset('main/assets/img/achievement/brussels_02.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                          <h4>2024</h4>
-                          <p>Meeting at Brussels March 2024</p>
-                          <a href="{{asset('main/assets/img/achievement/brussels_02.jpg')}}" title="Brussels 2024" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                        </div>
-                      </div>
-                    </div><!-- End Portfolio Item -->
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-                      <div class="portfolio-content h-100">
-                        <img src="{{asset('main/assets/img/achievement/brussels_03.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                          <h4>2024</h4>
-                          <p>Meeting at Brussels March 2024</p>
-                          <a href="{{asset('main/assets/img/achievement/brussels_03.jpg')}}" title="Brussels 2024" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                        </div>
-                      </div>
-                    </div><!-- End Portfolio Item -->
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-                      <div class="portfolio-content h-100">
-                        <img src="{{asset('main/assets/img/achievement/brussels_04.jpg')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                          <h4>2024</h4>
-                          <p>Meeting at Brussels March 2024</p>
-                          <a href="{{asset('main/assets/img/achievement/brussels_04.jpg')}}" title="Brussels 2024" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                        </div>
-                      </div>
-                    </div><!-- End Portfolio Item -->
-                  </div><!-- End Portfolio Container -->
+                      <div class="post-content d-flex flex-column">
         
+                        <h3 class="post-title">Meeting at Brussels March 2024</h3>
+        
+                        <a href="{{ route('brussels') }} " class="readmore stretched-link">View<i class="bi bi-arrow-right"></i></a>
+        
+                      </div>
+                      
+        
+                    </article>
+                  </div><!-- End first post -->
+                  <!-- Second post -->
+                  <div class="col-lg-4"  style="padding-top: 10px">
+                    <article class="position-relative h-100">
+        
+                      <div class="post-img position-relative overflow-hidden">
+                        <img src="{{asset('main/assets/img/achievement/futminna/futminna01.jpg')}} " class="img-fluid" alt="">
+                      </div>
+        
+                      <div class="post-content d-flex flex-column">
+        
+                        <h3 class="post-title">Meet Our HCE Scholars at Federal University of Technology Minna, Nigeria</h3>
+
+                        <a href="{{ route('futminna') }}" class="readmore stretched-link"><span>View</span><i class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </article>
+                  </div>
+                  <!-- End second post -->
+        
+                  <!-- 3rd post -->
+                  <div class="col-lg-4"  style="padding-top: 10px">
+                    <article class="position-relative h-100">
+        
+                      <div class="post-img position-relative overflow-hidden">
+                        <img src="{{asset('main/assets/img/achievement/abomey_calavi/abomey_calavi01.jpg')}} " class="img-fluid" alt="">
+                        <!-- <span class="post-date">December 10th, 2024</span> -->
+                      </div>
+        
+                      <div class="post-content d-flex flex-column">
+        
+                        <h3 class="post-title">Meet Our HCE Scholars at University of Abomey-Calavi (UAC), Benin, Benin</h3>
+                        <a href="{{ route('abomey_calavi') }}" class="readmore stretched-link"><span>View</span><i class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </article>
+                  </div>
+                  <!-- End 3rd post --> 
                 </div>
-        
               </div>
         
             </section>
