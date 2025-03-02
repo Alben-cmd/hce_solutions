@@ -41,7 +41,7 @@
                                 <div class="portfolio-info">
                                     {{-- <h4>2024</h4> --}}
                                     <p>HCE Scholars at FUT Minna, Nigeria</p>
-                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna01.jpg')}}" title="Brussels 2024" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna01.jpg')}}" title="HCE Scholars at FUT Minna, Nigeria" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                     <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                                 </div>
                             </div>
@@ -53,7 +53,7 @@
                                 <div class="portfolio-info">
                                     {{-- <h4>2024</h4> --}}
                                     <p>HCE Scholars at FUT Minna, Nigeria</p>
-                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna01.jpg')}}" title="Brussels 2024" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna01.jpg')}}" title="HCE Scholars at FUT Minna, Nigeria" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                     <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                                 <div class="portfolio-info">
                                     {{-- <h4>2024</h4> --}}
                                     <p>HCE Scholars at FUT Minna, Nigeria</p>
-                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna03.jpg')}}" title="Brussels 2024" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna03.jpg')}}" title="HCE Scholars at FUT Minna, Nigeria" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                     <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                                 </div>
                             </div>
@@ -75,7 +75,7 @@
                                 <div class="portfolio-info">
                                     {{-- <h4>2024</h4> --}}
                                     <p>HCE Scholars at FUT Minna, Nigeria</p>
-                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna04.jpg')}}" title="Brussels 2024" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna04.jpg')}}" title="HCE Scholars at FUT Minna, Nigeria" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                     <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                                 <div class="portfolio-info">
                                     {{-- <h4>2024</h4> --}}
                                     <p>HCE Scholars at FUT Minna, Nigeria</p>
-                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna05.jpg')}}" title="Brussels 2024" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna05.jpg')}}" title="HCE Scholars at FUT Minna, Nigeria" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                     <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                                 </div>
                             </div>
@@ -97,7 +97,7 @@
                                 <div class="portfolio-info">
                                     {{-- <h4>2024</h4> --}}
                                     <p>HCE Scholars at FUT Minna, Nigeria</p>
-                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna06.jpg')}}" title="Brussels 2024" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="{{asset('main/assets/img/achievement/futminna/futminna06.jpg')}}" title="HCE Scholars at FUT Minna, Nigeria" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                     <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                                 </div>
                             </div>
