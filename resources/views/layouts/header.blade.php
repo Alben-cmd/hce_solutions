@@ -22,8 +22,6 @@
               <li><a href="{{ route('c_development') }} ">Capacity Development</a></li>
               <li><a href="{{ route('partnership') }} ">Partnerships</a></li>
               <li><a href="https://www.eacea.ec.europa.eu/grants/2021-2027/intra-africa-academic-mobility-scheme_en">Intra Africa Mobility</a></li>
-              
-              </li>
             </ul>
           </li>
           <li class="dropdown"><a href="#" class="{{ Request()->is('activities', 'achievements', 'impacts', 'workshops_training') ? 'active' : '' }}"><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -35,33 +33,13 @@
             </ul>
           </li>  
           <li><a href="{{ route('news') }} " class="{{ Request()->is('news') ? 'active' : '' }}">News</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#" class="{{ Request()->is('Scholarship', 'Trainee') ? 'active' : '' }}"><span>Opportunities</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="{{ route('trainee') }}">Trainee Mobility Programme</a></li>
+              <li><a href="{{ route('scholarship') }}">Scholarship</a></li>
+              
             </ul>
-          </li> -->
-          
-          <!-- <li><a href="{{ route('scholarship') }} " class="{{ Request()->is('scholarship') ? 'active' : '' }}">Scholarships</a></li> -->
-          <!-- <li class="dropdown"><a href="#" class="{{ Request()->is('opportunities', 'scholarship') ? 'active' : '' }}"><span>Opportunity</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
-          </a>
-            <ul>
-              <li><a href="{{ route('opportunities') }} ">Opportunities</a></li>
-              <li><a href="{{ route('scholarship') }}">Scholarships</a></li>
-            </ul>
-          </li>  -->
-          <li><a href="{{ route('scholarship') }} " class="{{ Request()->is('scholarship') ? 'active' : '' }}"><button type="button" class="btn btn-outline-info">Scholarship</button></a></li>
+          </li>
           <li><a href="{{ route('contact') }} " class="{{ Request()->is('contact') ? 'active' : '' }}">Contact</a></li>
           <li><a href="{{ route('faq') }} " class="{{ Request()->is('faq') ? 'active' : '' }}">FAQ</a></li>
         </ul>

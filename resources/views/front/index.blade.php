@@ -24,8 +24,13 @@
               <!-- scholarship alert start-->
                 <!-- <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now open! 🎓 Applications are accepted from June 15, 2024, to July 27, 2024. 📅 Results will be announced on September 3, 2024. Don't miss this opportunity!. For more information, visit our <em><a href="{{ route('scholarship') }} " style="color: rgb(255, 0, 0); text-decoration: underline;">Scholarship Page.
                 </em></a></marquee> -->
-                <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 Our MSc and PhD Scholarship Call is now Closed! 📅 Results have been announced. 🎓 New Scholarship Oportunities will be anounced in due course. For more information, visit our <em><a href="{{ route('scholarship') }} " style="color: rgb(255, 0, 0); text-decoration: underline;">Scholarship Page.
-                </em></a></marquee>
+                <!-- <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">🎓 is now Closed! 📅 Results have been announced. 🎓 New Scholarship Oportunities will be anounced in due course. For more information, visit our <em><a href="{{ route('scholarship') }} " style="color: rgb(255, 0, 0); text-decoration: underline;">Scholarship Page.
+                </em></a></marquee> -->
+
+                <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">
+                  🎓 Applications for the <strong>Trainee Mobility Programme in Clean Energy Solutions</strong> are NOW OPEN! 📅 
+                  Apply before <strong>26th May 2025</strong> for a chance to gain hands-on training and a monthly stipend of €1,230. For more details, visit our <em><a href="{{ route('trainee') }}" style="color: rgb(255, 0, 0); text-decoration: underline;">Trainee Programme Page</a></em>.
+              </marquee>
               <!-- Scholarship alert ends -->
             </div>
           </div>

@@ -15,4 +15,9 @@ class OpportunityController extends Controller
 
         return view('front.opportunities.scholarship ');
     }
+
+    public function trainee(){
+
+        return view('front.opportunities.trainee ');
+    }
 }

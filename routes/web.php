@@ -46,6 +46,7 @@ Route::get('/orientation', [NewsController::class, 'orientation'])->name('orient
 //opportunities start
 Route::get('/opportunities', [OpportunityController::class, 'opportunities'])->name('opportunities');
 Route::get('/scholarship', [OpportunityController::class, 'scholarship'])->name('scholarship');
+Route::get('/trainee_mobility', [OpportunityController::class, 'trainee'])->name('trainee');
 //opportunity ends 
 Route::get('/contacts', [FrontController::class, 'contact'])->name('contact');
 Route::post('/contacts', [FrontController::class, 'contactmail'])->name('contact.store');
