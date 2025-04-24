@@ -27,74 +27,50 @@
 
       <div class="container">
         <div class="row gy-4">
-          <!-- First post -->
+         
+          <!-- 4rd post -->
           <div class="col-lg-4"  style="padding-top: 10px">
             <article class="position-relative h-100">
 
               <div class="post-img position-relative overflow-hidden">
-                <img src="{{asset('main/assets/img/blog/news1.jpg')}} " class="img-fluid" alt="">
-                <span class="post-date">12 - 16 August 2024</span>
+                <img src="{{asset('main/assets/img/blog/trainee.png')}} " class="img-fluid" alt="">
+                <span class="post-date">26th May 2025</span>
               </div>
 
               <div class="post-content d-flex flex-column">
 
-                <h3 class="post-title">The 2nd Ruforum Triennial Conference</h3>
+                <h3 class="post-title">A Call for HCE Trainee Mobility Programme</h3>
 
-                <div class="meta d-flex align-items-center">
+                <!-- <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
-                    <i class="bi bi-geo-alt"></i> <span class="ps-2">Windhoek, Namibia</span>
+                    <i class="bi bi-geo-alt"></i> <span class="ps-2">virtual</span>
+                    <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-clock"></i> <span class="ps-2">9AM</span>
                   </div>
-                  <!-- <span class="px-3 text-black-50">/</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
                   <div class="d-flex align-items-center">
                     <i class="bi bi-hash"></i> <span class="ps-2">RUFtriennial24</span>
-                  </div> -->
-                </div>
-
-                <p style="text-align:justify;">
-                  <strong>Operationalising Higher Agricultural Education and Research Ecosystems for Innovation, Industrialisation and Economic Development in Africa: A Call for Action;</strong> The 2nd RUFORUM Triennial Conference will gather stakeholders like policymakers and academics to discuss key agricultural and economic issues in Africa.
-                </p>
-
-                <hr>
-
-                <a href="https://www.ruforum.org/Triennial2024/" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-              </div>
-              
-
-            </article>
-          </div><!-- End first post -->
-          <!-- Second post -->
-          <div class="col-lg-4"  style="padding-top: 10px">
-            <article class="position-relative h-100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="{{asset('main/assets/img/blog/admission.jpg')}} " class="img-fluid" alt="">
-                <span class="post-date">2024 Admissions</span>
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">HCE Intra-Africa Mobility Masters and PhD Scholarship Awardees</h3>
-
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center">
-                    <!-- <i class="bi bi-geo-alt"></i> <span class="ps-2">MSc & PhD</span> -->
                   </div>
-                  <!-- <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center">
-                    <i class="bi bi-hash"></i> <span class="ps-2">RUFtriennial24</span>
-                  </div> -->
-                </div>
+                </div> -->
 
                 <p style="text-align:justify;">
-                  We are thrilled to highlight the exceptional recipients of the prestigious HCE Intra-Africa Mobility masters and PhD scholarships. These highly competitive programs provide life-changing educational opportunities for the most promising students across the African continent.
+                  We are excited to announce the upcoming Trainee Mobility Programme — a fully funded, 3-month hands-on training in clean energy!
+
+                  A practical programme that will take place in Nigeria (Valec Electric Ltd) and Zimbabwe (SustEnergy Pvt Ltd), and is open to students who are citizens of Nigeria, Uganda, Benin, or Zimbabwe.
+                  
+                  We strongly encourage women and persons with disabilities to apply and be part of this transformative opportunity.
+                  
+                  Closing on 26th May 2025
                 </p>
                 <hr>
-                <a href="{{ route('scholarshipAwardees') }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="{{ route('trainee') }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
               </div>
             </article>
           </div>
-          <!-- End second post -->
+          <!-- End 4rd post -->
+          
 
           <!-- 3rd post -->
           <div class="col-lg-4"  style="padding-top: 10px">
@@ -132,6 +108,76 @@
             </article>
           </div>
           <!-- End 3rd post -->
+
+          <!-- Second post -->
+          <div class="col-lg-4"  style="padding-top: 10px">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="{{asset('main/assets/img/blog/admission.jpg')}} " class="img-fluid" alt="">
+                <span class="post-date">2024 Admissions</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">HCE Intra-Africa Mobility Masters and PhD Scholarship Awardees</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <!-- <i class="bi bi-geo-alt"></i> <span class="ps-2">MSc & PhD</span> -->
+                  </div>
+                  <!-- <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-hash"></i> <span class="ps-2">RUFtriennial24</span>
+                  </div> -->
+                </div>
+
+                <p style="text-align:justify;">
+                  We are thrilled to highlight the exceptional recipients of the prestigious HCE Intra-Africa Mobility masters and PhD scholarships. These highly competitive programs provide life-changing educational opportunities for the most promising students across the African continent.
+                </p>
+                <hr>
+                <a href="{{ route('scholarshipAwardees') }}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+          <!-- End second post -->
+
+          <!-- First post -->
+          <div class="col-lg-4"  style="padding-top: 10px">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="{{asset('main/assets/img/blog/news1.jpg')}} " class="img-fluid" alt="">
+                <span class="post-date">12 - 16 August 2024</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">The 2nd Ruforum Triennial Conference</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-geo-alt"></i> <span class="ps-2">Windhoek, Namibia</span>
+                  </div>
+                  <!-- <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-hash"></i> <span class="ps-2">RUFtriennial24</span>
+                  </div> -->
+                </div>
+
+                <p style="text-align:justify;">
+                  <strong>Operationalising Higher Agricultural Education and Research Ecosystems for Innovation, Industrialisation and Economic Development in Africa: A Call for Action;</strong> The 2nd RUFORUM Triennial Conference will gather stakeholders like policymakers and academics to discuss key agricultural and economic issues in Africa.
+                </p>
+
+                <hr>
+
+                <a href="https://www.ruforum.org/Triennial2024/" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+              
+
+            </article>
+          </div><!-- End first post -->
 
           
         </div>

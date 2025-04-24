@@ -107,6 +107,7 @@
                                 <li><i class="bi bi-check2-all"></i> <span>Demonstrate interest or experience in clean energy development.</span></li>
                                 
                             </ul>
+                            <p class="pb-2">Women and persons with disabilities are strongly encouraged to apply.</p>
                         </div>
                     </div>
                     <h5>Available Training Programs</h5>

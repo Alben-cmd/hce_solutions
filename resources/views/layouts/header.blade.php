@@ -33,7 +33,7 @@
             </ul>
           </li>  
           <li><a href="{{ route('news') }} " class="{{ Request()->is('news') ? 'active' : '' }}">News</a></li>
-          <li class="dropdown"><a href="#" class="{{ Request()->is('Scholarship', 'Trainee') ? 'active' : '' }}"><span>Opportunities</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#" class="{{ Request()->is('scholarship', 'trainee_mobility') ? 'active' : '' }}"><span>Opportunities</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="{{ route('trainee') }}">Trainee Mobility Programme</a></li>
               <li><a href="{{ route('scholarship') }}">Scholarship</a></li>
