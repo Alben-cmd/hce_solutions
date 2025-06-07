@@ -28,7 +28,7 @@
             <h2> Call for Trainee Applications</h2>
             <p>The Homegrown Clean Energy Solutions (HCE) project invites applications for its Trainee Mobility Programme, a three-month funded training initiative aiming to promote energy independence and environmental well being through collaboration and innovation, addressing climate challenges across Africa. </p>
             <br>
-            <p class="pb-3">Applications are <strong>On</strong> and will close on 26th May 2025 by Midnight GMT +1</p>
+            <p class="pb-3">Applications are <strong>CLOSED</strong></p>
             <p class="pb-3">Awardees will be announced on<strong>  9th June 2025.</strong> </p>
             <p>Onboarding will take place on 30th June 2025.</p> 
             <!-- Download and apply Button -->
@@ -36,9 +36,12 @@
                 <a href="{{ asset('main/assets/img/trainee_call.pdf') }}" download class="badge badge-pill badge-info" style="background-color: #0074D9; color: white; padding: 10px 20px; margin-right: 10px;">
                     Download Call for Applications
                 </a>
-                <a href="https://bit.ly/HCE_TraineeApply" download class="badge badge-pill badge-info" style="background-color: #0074D9; color: white; padding: 10px 20px;">
+                <!-- <a href="https://bit.ly/HCE_TraineeApply" download class="badge badge-pill badge-info" style="background-color: #0074D9; color: white; padding: 10px 20px;">
                     Click to Apply
-                </a>
+                </a> -->
+                <span class="badge badge-pill badge-info" style="background-color: #cccccc; color: white; padding: 10px 20px; cursor: not-allowed; opacity: 0.6;">
+                    Application Closed
+                </span>
             </div>
             <hr>
           </div><!-- End Section Title -->
@@ -283,9 +286,9 @@
                         <a href="{{ asset('main/assets/img/trainee_call.pdf') }}" download class="badge badge-pill badge-info" style="background-color: #0074D9; color: white; padding: 10px 20px; margin-right: 10px;">
                             Download Call for Applications
                         </a>
-                        <a href="https://bit.ly/HCE_TraineeApply" download class="badge badge-pill badge-info" style="background-color: #0074D9; color: white; padding: 10px 20px;">
-                            Click to Apply
-                        </a>
+                        <span class="badge badge-pill badge-info" style="background-color: #cccccc; color: white; padding: 10px 20px; cursor: not-allowed; opacity: 0.6;">
+                            Application Closed
+                        </span>
                     </div>
                     
 

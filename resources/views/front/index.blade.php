@@ -28,8 +28,8 @@
                 </em></a></marquee> -->
 
                 <marquee class="alert alert-dark" role="alert" style="color:#034da1; padding:0;">
-                  🎓 Applications for the <strong>Trainee Mobility Programme in Clean Energy Solutions</strong> are NOW OPEN! 📅 
-                  Apply before <strong>26th May 2025</strong> for a chance to gain hands-on training and a monthly stipend of €1,230. For more details, visit our <em><a href="{{ route('trainee') }}" style="color: rgb(255, 0, 0); text-decoration: underline;">Trainee Programme Page</a></em>.
+                  🎓 Applications for the <strong>Trainee Mobility Programme in Clean Energy Solutions</strong> are NOW CLOSED! 📅 
+                  Awardees will be announced on 9th June 2025, visit our <em><a href="{{ route('trainee') }}" style="color: rgb(255, 0, 0); text-decoration: underline;">Trainee Programme Page</a></em> for more details.
               </marquee>
               <!-- Scholarship alert ends -->
             </div>
