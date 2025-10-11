@@ -8,6 +8,9 @@ use App\Http\Controllers\OpportunityController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\AchievementController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\ActivityController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -42,7 +45,12 @@ Route::get('/achievements/abomey_calavi', [AchievementController::class, 'abomey
 //news
 Route::get('/news', [NewsController::class, 'index'])->name('news');
 Route::get('/scholarship_awardees', [NewsController::class, 'scholarshipAwardees'])->name('scholarshipAwardees');
-Route::get('/orientation', [NewsController::class, 'orientation'])->name('orientation');
+Route::get('/news/orientation', [NewsController::class, 'orientation'])->name('orientation');
+
+// Activities
+Route::get('/activities', [ActivityController::class, 'index'])->name('activities');
+Route::get('/activities/umu', [ActivityController::class, 'umu'])->name('activities.umu');
+Route::get('/activities/uoz', [ActivityController::class, 'uoz'])->name('activities.uoz');
 //opportunities start
 Route::get('/opportunities', [OpportunityController::class, 'opportunities'])->name('opportunities');
 Route::get('/scholarship', [OpportunityController::class, 'scholarship'])->name('scholarship');
@@ -51,13 +59,3 @@ Route::get('/trainee_mobility', [OpportunityController::class, 'trainee'])->name
 Route::get('/contacts', [FrontController::class, 'contact'])->name('contact');
 Route::post('/contacts', [FrontController::class, 'contactmail'])->name('contact.store');
 Route::get('/faq', [FrontController::class, 'faq'])->name('faq');
-
-
-Auth::routes();
-
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Route::group(['as' => 'admin.', 'prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => ['auth']], function () 
-{
-    Route::get('/', [DashboardController::class, 'dasboard'])->name('dasboard');
-});
