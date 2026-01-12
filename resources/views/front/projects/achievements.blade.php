@@ -33,6 +33,46 @@
 
               <div class="container">
                 <div class="row gy-4">
+                  <!-- 5th post -->
+                  <div class="col-lg-4"  style="padding-top: 10px">
+                    <article class="position-relative h-100">
+        
+                      <div class="post-img position-relative overflow-hidden">
+                        <img src="{{asset('main/assets/img/achievement/mat_training/mat_05.jpg')}} " class="img-fluid" alt="">
+                      </div>
+        
+                      <div class="post-content d-flex flex-column">
+        
+                        <h3 class="post-title">HCE Trainee Mobility programme: Mat Water, Uganda</h3>
+        
+                        <a href="{{ route('mat_water') }} " class="readmore stretched-link">View<i class="bi bi-arrow-right"></i></a>
+        
+                      </div>
+                      
+        
+                    </article>
+                  </div>
+                  <!-- End 5th post -->
+                  <!-- 4th post -->
+                  <div class="col-lg-4"  style="padding-top: 10px">
+                    <article class="position-relative h-100">
+        
+                      <div class="post-img position-relative overflow-hidden">
+                        <img src="{{asset('main/assets/img/achievement/valec_training/val_02.jpg')}} " class="img-fluid" alt="">
+                      </div>
+        
+                      <div class="post-content d-flex flex-column">
+        
+                        <h3 class="post-title">HCE Trainee Mobility programme: Valec Nig Ltd</h3>
+        
+                        <a href="{{ route('valec_nig') }} " class="readmore stretched-link">View<i class="bi bi-arrow-right"></i></a>
+        
+                      </div>
+                      
+        
+                    </article>
+                  </div>
+                  <!-- End 4th post -->
                   <!-- First post -->
                   <div class="col-lg-4"  style="padding-top: 10px">
                     <article class="position-relative h-100">
@@ -51,7 +91,8 @@
                       
         
                     </article>
-                  </div><!-- End first post -->
+                  </div>
+                  <!-- End first post -->
                   <!-- Second post -->
                   <div class="col-lg-4"  style="padding-top: 10px">
                     <article class="position-relative h-100">

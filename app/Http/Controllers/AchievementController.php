@@ -25,4 +25,14 @@ class AchievementController extends Controller
     {
         return view('front.projects.image_folder.abomey_calavi');
     }
+
+    public function mat_water()
+    {
+        return view('front.projects.image_folder.mat_water');
+    }
+
+    public function valec_nig()
+    {
+        return view('front.projects.image_folder.valec_nig');
+    }
 }

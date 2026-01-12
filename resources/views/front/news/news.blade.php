@@ -27,6 +27,51 @@
 
       <div class="container">
         <div class="row gy-4">
+
+        <!-- 5th post -->
+          <div class="col-lg-4"  style="padding-top: 10px">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="{{asset('main/assets/img/blog/mobilization.png')}} " class="img-fluid" alt="">
+                <span class="post-date">Mobility Programme | 2025</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">HCE Trainee Mobility Programme: 1st Cohort Completes 3-Month Industry Training</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-geo-alt"></i> <span class="ps-2">NIgeria</span>
+                  <span class="px-3 text-black-50">/</span> 
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-geo-alt"></i> <span class="ps-2">Uganda</span>
+                  </div>
+                  </div>
+                  <!-- <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-hash"></i> <span class="ps-2">RUFtriennial24</span>
+                  </div> -->
+                </div> 
+
+                <p style="text-align:justify;">
+                  We are thrilled to announce the completion of the first cohort of the HCE Trainee Mobility Programme a three-month industry-based training in clean energy and sustainable solutions across Nigeria and Uganda.
+                  <br> A practical programme that took place in Nigeria (Valec Electric Ltd) and Uganda (mat Water), designed to provide industry-based practical experience through placements with partner companies, enabling trainees to apply technical knowledge to real-world challenges.
+                </p>
+                <hr>
+                <div class=row>
+                  <div class="col-lg-6">
+                    <a href="{{ route('mat_water') }}"><span>Mat Water</span><i class="bi bi-arrow-right"></i></a>
+                  </div>
+                  <div class="col-lg-6">
+                    <a href="{{ route('valec_nig') }}"><span>Valec Nig</span><i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- End 5th post -->
          
           <!-- 4rd post -->
           <div class="col-lg-4"  style="padding-top: 10px">

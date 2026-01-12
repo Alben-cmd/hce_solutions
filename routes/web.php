@@ -41,6 +41,11 @@ Route::get('/achievements', [AchievementController::class, 'index'])->name('achi
 Route::get('/achievements/brussels', [AchievementController::class, 'brussels'])->name('brussels');
 Route::get('/achievements/futminna', [AchievementController::class, 'futminna'])->name('futminna');
 Route::get('/achievements/abomey_calavi', [AchievementController::class, 'abomey_calavi'])->name('abomey_calavi');
+//Mobiltiy training 
+Route::get('/achievements/mat_water', [AchievementController::class, 'mat_water'])->name('mat_water');
+Route::get('/achievements/valec_nig', [AchievementController::class, 'valec_nig'])->name('valec_nig');
+
+
 
 //news
 Route::get('/news', [NewsController::class, 'index'])->name('news');
