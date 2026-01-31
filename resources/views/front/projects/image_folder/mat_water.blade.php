@@ -30,10 +30,8 @@
                     <!-- Blog Details Section -->
                     <div id="blog-details" class="blog-details section">
                       <div class="container">
-          
                         <article class="article">
                             <h3 class="title">Trainees Develop Solar Dryer and Renewable Energy Solutions at Mat Water Uganda</h3>
-
                             <div class="meta-top">
                                 <ul>
                                   <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">Mat Water Training Highlights</a></li>
@@ -43,6 +41,8 @@
                               </div><!-- End meta top -->
           
                           <div class="content">
+                            <p><strong>Outcome:</strong> A fully functional <strong>EcoDry Smart Hybrid Solar Dryer prototype</strong> was successfully developed.</p>
+                            <hr>
                             <p style="text-align:justify;">
                                 Trainees placed at <strong>Mat Water Ltd, Uganda</strong>, undertook intensive practical training focused on renewable energy systems, electronics, and innovation-driven solutions.
                             </p>
@@ -51,21 +51,56 @@
                             </p>
                            
                             <h3>Key training focus areas included:</h3>
-                                <ul>
-                                    <li>Solar energy system design</li>
-                                    <li>Photovoltaic technology</li>
-                                    <li>Solar panel fabrication techniques</li>
-                                    <li>Renewable energy applications</li>
-                                </ul>
-
+                            <ul>
+                                <li>Solar energy system design</li>
+                                <li>Photovoltaic technology</li>
+                                <li>Solar panel fabrication techniques</li>
+                                <li>Renewable energy applications</li>
+                            </ul>
                             <p>In addition, trainees were exposed to:</p>
-                                <ul>
-                                    <li>Local biogas production</li>
-                                    <li>Distilled water production and purification</li>
-                                    <li>Solar power system design and installation</li>
-                                    <li>Renewable energy safety practices</li>
-                                </ul>
-                            <p><strong>Trainee Reflections:</strong> </p>
+                            <ul>
+                                <li>Local biogas production</li>
+                                <li>Distilled water production and purification</li>
+                                <li>Solar power system design and installation</li>
+                                <li>Renewable energy safety practices</li>
+                            </ul>
+                            <hr>
+                            <h3>The Project: EcoDry Smart Hybrid Solar Dryer</h3>
+                            <p><strong>Overview</strong> </p>
+                            <p style="text-align:justify;">
+                                The EcoDry Smart Hybrid Solar Dryer is a state-of-the-art, energy-efficient, and user-friendly solar dryer that combines the benefits of traditional dryers with the advantages of solar energy. The dryer features a hybrid design that allows users to choose between manual and automatic modes, depending on their preferences and needs. The dryer is also equipped with a solar panel that converts sunlight into electricity, which is used to heat the water.
+                            </p>
+                            <p><strong>Problem It Addresses:</strong> </p>
+                            <p style="text-align:justify;">
+                                Traditional crop-drying methods in rural and peri-urban communities are slow, weather-dependent, and expose food to contamination, nutrient loss, and inconsistent moisture levels. Existing systems lack intelligent control to prevent over-drying or under-drying across different crop types.
+                            </p>
+                            <p><strong>Project Aim:</strong></p>
+                            <p style="text-align:justify;">
+                                To design and develop an affordable, intelligent hybrid solar dryer that delivers consistent, energy-efficient drying performance through automated environmental monitoring and control.
+                            </p>
+                            <p><strong>Key Features:</strong></p>
+                            <ul>
+                                <li>Hybrid energy system (solar thermal with electric backup)</li>
+                                <li>Temperature and humidity sensors for real-time monitoring</li>
+                                <li>Automated control of heat and airflow</li>
+                                <li>Faster drying with improved product quality</li>
+                                <li>Reduced post-harvest losses</li>
+                                <li>RFID-based access control to secure electronics and prevent unauthorized use</li>
+                            </ul>
+                            <p><strong>Current Status:</strong></p>
+                            <ul>
+                                <li>Research & Design: Completed</li>
+                                <li>Fabrication & Assembly: Completed</li>
+                                <li>Control Algorithm & Firmware: Completed</li>
+                                <li>Electronics Integration: In progress</li>
+                                <li>Testing & Optimization: Upcoming</li>
+                            </ul>
+                            <!-- <p><strong>Outcome:</strong></p>
+                            <p style="text-align:justify;">
+                                A fully functional EcoDry Smart Hybrid Solar Dryer prototype.
+                            </p> -->
+
+                            <p><strong>Reflections:</strong> </p>
                             <div class="testimonial-item mt-4">
                                 <div class="row align-items-center">
                                     <div class="col-md-3 text-center">
@@ -161,7 +196,7 @@
                                         </div>
                                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                                             <div class="portfolio-content h-100">
-                                                <img src="{{asset('main/assets/img/achievement/mat_training/mat_010.jpg')}}" class="img-fluid" alt="">
+                                                <img src="{{asset('main/assets/img/achievement/mat_training/mat_010.jpeg')}}" class="img-fluid" alt="">
                                                 
                                             </div>
                                         </div>
@@ -173,7 +208,7 @@
                                         </div>
                                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
                                             <div class="portfolio-content h-100">
-                                                <img src="{{asset('main/assets/img/achievement/mat_training/mat_012.jpg')}}" class="img-fluid" alt="">
+                                                <img src="{{asset('main/assets/img/achievement/mat_training/mat_012.jpeg')}}" class="img-fluid" alt="">
                                                 
                                             </div>
                                         </div>
