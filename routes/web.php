@@ -44,6 +44,8 @@ Route::get('/achievements/abomey_calavi', [AchievementController::class, 'abomey
 //Mobiltiy training 
 Route::get('/achievements/mat_water', [AchievementController::class, 'mat_water'])->name('mat_water');
 Route::get('/achievements/valec_nig', [AchievementController::class, 'valec_nig'])->name('valec_nig');
+//EcoDry
+Route::get('/achievements/Eco_dry', [AchievementController::class, 'EcoDry'])->name('EcoDry');
 
 
 

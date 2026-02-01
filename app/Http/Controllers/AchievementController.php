@@ -35,4 +35,9 @@ class AchievementController extends Controller
     {
         return view('front.projects.image_folder.valec_nig');
     }
+
+    public function EcoDry()
+    {
+        return view('front.projects.image_folder.EcoDry');
+    }
 }

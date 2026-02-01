@@ -33,6 +33,28 @@
 
               <div class="container">
                 <div class="row gy-4">
+
+                  <!-- 6th post -->
+                  <div class="col-lg-4"  style="padding-top: 10px">
+                    <article class="position-relative h-100">
+        
+                      <div class="post-img position-relative overflow-hidden">
+                        <img src="{{asset('main/assets/img/achievement/mat_010.jpeg')}} " class="img-fluid" alt="">
+                      </div>
+        
+                      <div class="post-content d-flex flex-column">
+        
+                        <h3 class="post-title">EcoDry Smart Hybrid Solar Dryer prototype</h3>
+        
+                        <a href="{{ route('EcoDry') }} " class="readmore stretched-link">View<i class="bi bi-arrow-right"></i></a>
+        
+                      </div>
+                      
+        
+                    </article>
+                  </div>
+                  <!-- End 6th post -->
+
                   <!-- 5th post -->
                   <div class="col-lg-4"  style="padding-top: 10px">
                     <article class="position-relative h-100">

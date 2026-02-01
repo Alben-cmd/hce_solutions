@@ -28,7 +28,41 @@
       <div class="container">
         <div class="row gy-4">
 
-        <!-- 5th post -->
+          <!-- 6th post -->
+          <div class="col-lg-4"  style="padding-top: 10px">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="{{asset('main/assets/img/blog/eu_visit.png')}} " class="img-fluid" alt="">
+                <span class="post-date">EU Visits FUT Minna | 2026</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">FUT Minna Hosts EU Officials for Mobility Grant Project Review</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-geo-alt"></i> <span class="ps-2">Minna, Nigeria</span>
+                  <!-- <span class="px-3 text-black-50">/</span>  -->
+                  </div>
+                  <!-- <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-hash"></i> <span class="ps-2">RUFtriennial24</span>
+                  </div> -->
+                </div> 
+
+                <p style="text-align:justify;">
+                  On January 8, 2026, a delegation from the European Union, led by Ms. Huba Boshoff, visited the Federal University of Technology, Minna to assess the progress of EU-funded mobility initiatives at the university. The visit focused on staff and student exchange programmes, as well as scholarship opportunities for international students. The delegation expressed satisfaction with the effective implementation of these initiatives and commended the university for its strong commitment to ensuring their success. 
+                </p>
+                <hr>
+                <a href="https://lnkd.in/eFzwq_Nb" class="readmore stretched-link" target="_blank"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+          <!-- End 6th post -->
+
+          <!-- 5th post -->
           <div class="col-lg-4"  style="padding-top: 10px">
             <article class="position-relative h-100">
 
@@ -73,7 +107,7 @@
           </div>
           <!-- End 5th post -->
          
-          <!-- 4rd post -->
+          <!-- 4th post -->
           <div class="col-lg-4"  style="padding-top: 10px">
             <article class="position-relative h-100">
 
@@ -114,7 +148,7 @@
               </div>
             </article>
           </div>
-          <!-- End 4rd post -->
+          <!-- End 4th post -->
           
 
           <!-- 3rd post -->
