@@ -152,21 +152,23 @@
                 <div class="row">
                     <div class="col-6">
                         <ul>
-                            <li><i class="bi bi-check2-all"></i> <span>University of Abomey-Calavi (UAC), Benin</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>Makerere University (MU), Uganda</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>University of Zimbabwe (UZ), Zimbabwe</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>West African Science Service Centre on Climate Change and Adapted Land Use (WASCAL)</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>Nigerian Women in Agricultural Research for Development (NiWARD), Nigeria</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>Instituto Politecnico Do Porto, Portugal</span></li>
+                          <a href="https://futminna.edu.ng/" target="_blank"> <li><i class="bi bi-check2-all"></i> <span>Federal University of Technology, Minna (FUTMinna), Nigeria</span></li></a>
+                            <a href="https://www.uac.bj/" target="_blank"><li><i class="bi bi-check2-all"></i> <span>University of Abomey-Calavi (UAC), Benin</span></li></a>
+                            <a href="https://www.mak.ac.ug/" target="_blank"><li><i class="bi bi-check2-all"></i> <span>Makerere University (MU), Uganda</span></li></a>
+                            <a href="https://www.uz.ac.zw/" target="_blank"><li><i class="bi bi-check2-all"></i> <span>University of Zimbabwe (UZ), Zimbabwe</span></li></a>
+                            <a href="https://wascal.org/" target="_blank"><li><i class="bi bi-check2-all"></i> <span>West African Science Service Centre on Climate Change and Adapted Land Use (WASCAL)</span></li></a>
+                            <a href="https://niward.org.ng/" target="_blank"><li><i class="bi bi-check2-all"></i> <span>Nigerian Women in Agricultural Research for Development (NiWARD), Nigeria</span></li></a>
+                            
                           </ul>
                     </div>
                     <div class="col-6">
                         <ul>
-                            <li><i class="bi bi-check2-all"></i> <span>Uganda Martyrs University (UMU), Uganda</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>University of Nigeria, Nsukka (UNN), Nigeria</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>VALEC ELECTRIC LIMITED, Nigeria</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>Regional Universities Forum for Capacity Building in Agriculture (RUFORUM)</span></li>
-                            <li><i class="bi bi-check2-all"></i> <span>West African Science Services Centre, Ghana</span></li>
+                            <a href="https://umu.ac.ug/" target="_blank"><li><i class="bi bi-check2-all"></i> <span>Uganda Martyrs University (UMU), Uganda</span></li></a>
+                            <a href="https://www.unn.edu.ng/" target="_blank"><li><i class="bi bi-check2-all"></i> <span>University of Nigeria, Nsukka (UNN), Nigeria</span></li></a>
+                            <a href="https://www.vaelec.com/" target="_blank"><li><i class="bi bi-check2-all"></i> <span>VALEC ELECTRIC LIMITED, Nigeria</span></li></a>
+                            <a href="https://ruforum.org/" target="_blank"><li><i class="bi bi-check2-all"></i> <span>Regional Universities Forum for Capacity Building in Agriculture (RUFORUM)</span></li></a>
+                            <a href="https://wascal.org/" target="_blank"><li><i class="bi bi-check2-all"></i> <span>West African Science Services Centre, Ghana</span></li></a>
+                            <a href="https://www.ipp.pt/" target="_blank"><li><i class="bi bi-check2-all"></i> <span>Instituto Politecnico Do Porto, Portugal</span></li></a>
                           </ul>
                     </div>
                 </div>
